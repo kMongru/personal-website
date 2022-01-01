@@ -1,0 +1,40 @@
+/* Variables */
+:root {
+  /* commonly used colors */
+  --bgc-green: #7ac142;
+  --error-red: #f95f5f;
+  --black: #262626;
+  --white: #fff;
+  --background-grey: #f7f7f9;
+  --grey: #a0a0a0;
+  --pending-grey: #0000000a;
+  --footer-shadow: #011f3f1a;
+
+  /* spacing utilities */
+  --offset-gutter: 30px;
+  --offset-gutter-desktop: 74px;
+  --offset-header: 85px;
+
+  /* layering utilities */
+  --layer-navbar: 6;
+  --layer-overlay: 5;
+  --layer-menu: 4;
+  --layer-base: 3;
+
+  /* shadow utilities */
+  --ui-shadow: 0px 4px 10px rgba(0, 0, 0, 0.05);
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
