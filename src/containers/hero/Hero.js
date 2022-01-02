@@ -1,0 +1,77 @@
+import React from 'react';
+import PropTypes from 'prop-types';
+
+//custom components
+import { Button } from '../../components';
+
+//images
+import hand from '../../assets/Waving Hand.svg';
+import timer from '../../assets/Stopwatch.svg';
+import breifcase from '../../assets/Briefcase.svg';
+import education from '../../assets/Graduation Cap.svg';
+import hobby from '../../assets/Hobby.svg';
+
+const TextItem = ({ emoji, title, text }) => {
+  return (
+    <div className='TLDR-container-item'>
+      <div className=''>
+        <img src={emoji} alt='Waving Emoji' />
+        <h3>{title}</h3>
+      </div>
+      <div className=''>
+        <p>{text}</p>
+      </div>
+    </div>
+  );
+};
+
+const Hero = (props) => {
+  return (
+    <>
+      <div className='intro'>
+        <div className='intro-greeting'>
+          <h2>Hi!</h2>
+          <img src={hand} alt='Waving Emoji' />
+        </div>
+        <div className='intro-text'>
+          <h4>
+            Allow me to introduce myself: My name is <span>Keegan Mongru</span>,
+            interested in exploring the intersection of <span>finance</span> and
+            <span>technology</span>
+          </h4>
+        </div>
+      </div>
+      <div className='button_container'>
+        <Button text='Contact Me' onClick={() => {}} />
+        <Button text='PDF Resume' onClick={() => {}} />
+      </div>
+      <div className='TLDR'>
+        <div className='TLDR-greeting'>
+          <h2>TL:DR</h2>
+          <img src={timer} alt='Timer Emoji' />
+        </div>
+        <div className='TLDR-container'>
+          <TextItem
+            emoji={education}
+            title='Education'
+            text='A 3.9 GPA student taking Honors Business Administration (HBA) at the Ivey Business School & planning to continue Software Enginering (BESc) at Western University.'
+          />
+          <TextItem
+            emoji={breifcase}
+            title='Past Work Experience'
+            text='For the past summer I worked as a mobile app developer at Western University. (see project)'
+          />
+          <TextItem
+            emoji={hobby}
+            title='Hobbies'
+            text='For the past 15 years of my life I have competed in provinical, national and international golf tournments. I also enjoy listening to music (red hot chili peppers) and snowboarding. '
+          />
+        </div>
+      </div>
+    </>
+  );
+};
+
+Hero.propTypes = {};
+
+export default Hero;

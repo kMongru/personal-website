@@ -1,0 +1,5 @@
+.btn {
+  display: block;
+  background: var(--primary-green);
+  color: var(--white);
+}

@@ -5,7 +5,11 @@ import PropTypes from 'prop-types';
 import './footer.css';
 
 const Footer = (props) => {
-  return <div></div>;
+  return (
+    <div>
+      <h3>Footer</h3>{' '}
+    </div>
+  );
 };
 
 Footer.propTypes = {};

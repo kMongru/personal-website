@@ -4,11 +4,8 @@ import React from 'react';
 import './styles/app.css';
 
 //custom imports
-import { Header, Footer } from './containers';
+import { Header, Footer, Hero, Projects } from './containers';
 import { CTA, Navbar } from './components';
-
-//images
-import img from './images/Waving Hand.svg';
 
 function App() {
   return (
@@ -17,10 +14,10 @@ function App() {
         <Navbar />
       </div>
       <section className='hero'>
-        <img src={img} alt='Waving Emoji' />
-        <p>Intro Text</p>
+        <Hero />
       </section>
-      <Footer />
+      {/* <Projects />
+      <Footer /> */}
     </div>
   );
 }

@@ -4,10 +4,29 @@ import PropTypes from 'prop-types';
 //styling
 import './button.css';
 
-const Button = (props) => {
-  return <div></div>;
+/*
+PROPS
+text -> the text inside the button
+status -> disabled or enabled
+onClick -> the function called from the button
+*/
+
+const Button = ({ text, status = 'enabled', onClick }) => {
+  return (
+    <button
+      className={'btn' + status}
+      onClick={onClick}
+      disabled={status == 'disabled' ? true : false}
+    >
+      {text}
+    </button>
+  );
 };
 
-Button.propTypes = {};
+Button.propTypes = {
+  text: PropTypes.string,
+  status: PropTypes.string,
+  onClick: PropTypes.func,
+};
 
 export default Button;
