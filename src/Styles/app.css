@@ -1,0 +1,80 @@
+* {
+  box-sizing: border-box;
+  /* Browers Default with Padding/Margins, want to remove */
+  padding: 0;
+  margin: 0;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--font-family);
+  background: var(--color-bg);
+}
+
+a {
+  color: unset;
+  text-decoration: none;
+}
+
+h1,
+h2,
+h4 {
+  font-weight: 600;
+  color: var(--text);
+}
+
+h1 {
+  font-size: 40rem;
+}
+
+h2 {
+  font-size: 45rem;
+}
+
+h3 {
+  font-size: 25rem;
+}
+
+h4 {
+  font-weight: 400;
+  color: var(--text);
+  font-size: 35rem;
+}
+
+p {
+  font-weight: 300;
+  color: var(--text);
+  font-size: 20rem;
+}
+
+.section__padding {
+  padding: 4rem 6rem;
+}
+
+.section__margin {
+  margin: 4rem 6rem;
+}
+
+/* Add Animations Here */
+
+@media screen and (max-width: 768px) {
+  /* Tablets */
+  .section__padding {
+    padding: 4rem;
+  }
+
+  .section__margin {
+    margin: 4rem;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  /* Phones */
+  .section__padding {
+    padding: 4rem 2rem;
+  }
+
+  .section__margin {
+    margin: 4rem 2rem;
+  }
+}

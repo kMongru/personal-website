@@ -1,24 +1,26 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+
+//styling
+import './styles/app.css';
+
+//custom imports
+import { Header, Footer } from './containers';
+import { CTA, Navbar } from './components';
+
+//images
+import img from './images/Waving Hand.svg';
 
 function App() {
   return (
     <div className='App'>
-      <header className='App-header'>
-        <img src={logo} className='App-logo' alt='logo' />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className='App-link'
-          href='https://reactjs.org'
-          target='_blank'
-          rel='noopener noreferrer'
-        >
-          Learn React
-        </a>
-        <p>some text</p>
-      </header>
+      <div className='header'>
+        <Navbar />
+      </div>
+      <section className='hero'>
+        <img src={img} alt='Waving Emoji' />
+        <p>Intro Text</p>
+      </section>
+      <Footer />
     </div>
   );
 }
