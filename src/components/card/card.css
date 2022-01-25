@@ -1,0 +1,6 @@
+.card_container {
+  min-height: 200 px;
+  padding: 10em;
+  background-color: red;
+  border-radius: 30em;
+}

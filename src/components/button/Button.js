@@ -14,7 +14,7 @@ onClick -> the function called from the button
 const Button = ({ text, status = 'enabled', onClick }) => {
   return (
     <button
-      className={'btn' + status}
+      className='btn'
       onClick={onClick}
       disabled={status == 'disabled' ? true : false}
     >

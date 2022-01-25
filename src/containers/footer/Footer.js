@@ -6,8 +6,11 @@ import './footer.css';
 
 const Footer = (props) => {
   return (
-    <div>
-      <h3>Footer</h3>{' '}
+    <div className='footer_container'>
+      <p>
+        Keegan Mongru - <a href='/'>LinkedIn</a> - <a href='/'>Github</a> -
+        <a href='/'>Email</a>
+      </p>
     </div>
   );
 };

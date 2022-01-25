@@ -18,5 +18,5 @@
   --footer-shadow: #011f3f1a;
 
   /* shadow utilities */
-  --ui-shadow: 0px 4px 10px rgba(0, 0, 0, 0.05);
+  --ui-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
 }

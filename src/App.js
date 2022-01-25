@@ -5,19 +5,19 @@ import './styles/app.css';
 
 //custom imports
 import { Header, Footer, Hero, Projects } from './containers';
-import { CTA, Navbar } from './components';
+import { CTA } from './components';
 
 function App() {
   return (
     <div className='App'>
       <div className='header'>
-        <Navbar />
+        <Header />
       </div>
       <section className='hero'>
         <Hero />
       </section>
-      {/* <Projects />
-      <Footer /> */}
+      <Projects />
+      <Footer />
     </div>
   );
 }

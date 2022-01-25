@@ -1,5 +1,19 @@
 .btn {
   display: block;
   background: var(--primary-green);
-  color: var(--white);
+
+  color: white;
+  font-size: 25rem;
+  font-weight: 600;
+
+  border: none;
+  margin: 10rem;
+  padding: 10rem 5rem;
+  border-radius: 10px;
+  width: 270px;
+  height: 72;
+
+  box-shadow: var(--ui-shadow);
+
+  cursor: pointer;
 }

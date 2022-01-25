@@ -1,6 +1,9 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
+//styling
+import './hero.css';
+
 //custom components
 import { Button } from '../../components';
 
@@ -10,15 +13,16 @@ import timer from '../../assets/Stopwatch.svg';
 import breifcase from '../../assets/Briefcase.svg';
 import education from '../../assets/Graduation Cap.svg';
 import hobby from '../../assets/Hobby.svg';
+import arrow from '../../assets/Down Arrow.svg';
 
 const TextItem = ({ emoji, title, text }) => {
   return (
-    <div className='TLDR-container-item'>
-      <div className=''>
+    <div className={'TLDR-container-item-' + title}>
+      <div className='item-titles'>
         <img src={emoji} alt='Waving Emoji' />
         <h3>{title}</h3>
       </div>
-      <div className=''>
+      <div className='item-text'>
         <p>{text}</p>
       </div>
     </div>
@@ -37,16 +41,16 @@ const Hero = (props) => {
           <h4>
             Allow me to introduce myself: My name is <span>Keegan Mongru</span>,
             interested in exploring the intersection of <span>finance</span> and
-            <span>technology</span>
+            <span> technology</span>
           </h4>
         </div>
       </div>
-      <div className='button_container'>
+      <div className='button-container'>
         <Button text='Contact Me' onClick={() => {}} />
         <Button text='PDF Resume' onClick={() => {}} />
       </div>
       <div className='TLDR'>
-        <div className='TLDR-greeting'>
+        <div className='TLDR-title'>
           <h2>TL:DR</h2>
           <img src={timer} alt='Timer Emoji' />
         </div>
@@ -66,6 +70,9 @@ const Hero = (props) => {
             title='Hobbies'
             text='For the past 15 years of my life I have competed in provinical, national and international golf tournments. I also enjoy listening to music (red hot chili peppers) and snowboarding. '
           />
+        </div>
+        <div className='centered-div'>
+          <img src={arrow} alt='down-arrow' />
         </div>
       </div>
     </>
