@@ -1,24 +1,20 @@
 .header {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   padding: 2rem 6rem;
-  background-color: aqua;
 }
 
 .header-links {
   display: flex;
-  /* width: 100%; */
-  /* justify-content: space-around;
-  align-items: center;
-  background-color: blue; */
+  width: 100%;
+  justify-content: space-around;
+  padding: 10em 20em;
 }
 
 .header-links-toggle {
-  display: flex;
   flex: 1;
   align-items: center;
-  background-color: red;
 }
 
 .header-links-toggle img {
@@ -27,13 +23,12 @@
 }
 
 .header-links-name {
-  display: flex;
   flex: 1;
+  display: flex;
   justify-content: center;
   align-items: center;
   white-space: nowrap;
   overflow: hidden;
-  background-color: green;
 }
 
 .header-links-container {

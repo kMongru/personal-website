@@ -10,10 +10,8 @@ import { CTA } from './components';
 function App() {
   return (
     <div className='App'>
-      <div className='header'>
-        <Header />
-      </div>
       <section className='hero'>
+        <Header />
         <Hero />
       </section>
       <Projects />

@@ -31,21 +31,20 @@ const Header = (props) => {
     <>
       <div className='header'>
         <div className='header-links'>
-          {/*Temp Light Dark Img*/}
           <div className='header-links-toggle'>
             <img src={toggle} alt='toggle' />
           </div>
-          {/* Name */}
+
           <div className='header-links-name'>
             <h1>KEEGAN MONGRU</h1>
           </div>
-          {/* Menu Container*/}
+
           <div className='header-links-container'>
             <Menu isOpen={toggleMenu} />
           </div>
         </div>
         {/* Menu, change to modal here! */}
-        <div className='header-menu'>
+        {/* <div className='header-menu'>
           {toggleMenu ? (
             <RiCloseLine
               color='#000'
@@ -59,15 +58,15 @@ const Header = (props) => {
               onClick={() => setToggleMenu(true)}
             />
           )}
-        </div>
+        </div> */}
       </div>
-      {toggleMenu && (
+      {/* {toggleMenu && (
         <div className='header-menu-modal'>
           <div className='header-menu-modal-container'>
             <Menu isOpen={toggleMenu} />
           </div>
         </div>
-      )}
+      )} */}
     </>
   );
 };

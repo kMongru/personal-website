@@ -55,6 +55,11 @@ p {
   margin: 4rem 6rem;
 }
 
+section {
+  height: 100vh;
+  width: 100vw;
+}
+
 /* Add Animations Here */
 
 @media screen and (max-width: 768px) {
