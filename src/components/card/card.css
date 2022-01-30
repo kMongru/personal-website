@@ -14,27 +14,43 @@
   height: 100%;
 }
 
-.title {
+.placeholder .title {
   flex: 1;
   padding: 10rem 0rem 0rem 10rem;
   color: white;
 }
 
-.title h3 {
+.placeholder .title h3 {
   max-width: 200px;
 }
 
-.img_container {
+.placeholder .img_container {
   display: flex;
   flex: 4;
   justify-content: center;
   align-items: center;
 }
 
-.img_container img {
+.placeholder .img_container img {
   width: 128px;
   height: 214px;
   fill: white;
+}
+
+.card_container .info {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  z-index: 3;
+  color: white;
+  opacity: 0;
+}
+
+.card_container .info-icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
 }
 
 /* Animation */
@@ -66,37 +82,3 @@
   transition: 0.5s;
   opacity: 0;
 }
-
-.card_container .info {
-  position: relative;
-  z-index: 3;
-  color: white;
-  opacity: 0;
-  transform: translateY(-20px);
-  transition: 0.5s;
-}
-.card_container .info h1 {
-  margin: 0px;
-}
-.card_container .info p {
-  letter-spacing: 1px;
-  font-size: 15px;
-  margin-top: 8px;
-  color: white;
-}
-
-/* .card_container .info button {
-  padding: 0.6rem;
-  outline: none;
-  border: none;
-  border-radius: 3px;
-  background: white;
-  color: black;
-  font-weight: bold;
-  cursor: pointer;
-  transition: 0.4s ease;
-}
-.card_container .info button:hover {
-  background: dodgerblue;
-  color: white;
-} */

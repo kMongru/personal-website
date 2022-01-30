@@ -1,6 +1,5 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import { DiReact } from 'react-icons/di';
 
 //styling
 import './card.css';
@@ -9,10 +8,13 @@ import './card.css';
 bg - background image of each card
 title - the name of the project
 img - placeholder image on the card
-tools - an array of different languages and frameworks
+description - brief description of the project
+gitHub - link to gitHub
+demo - link to demo
+logos - an array of different icons (languages and frameworks)
 */
 
-const Card = ({ bg, title, img, tools }) => {
+const Card = ({ bg, title, img, description, gitHub, demo, logos }) => {
   return (
     <div className='card_container' style={{ backgroundImage: `url(${bg})` }}>
       <div className='placeholder'>
@@ -24,11 +26,17 @@ const Card = ({ bg, title, img, tools }) => {
         </div>
       </div>
       <div className='info'>
-        <h3>some text</h3>
-        <DiReact />
-        {/* {tools.map((item, i) => {
-          import test from '<img src={`react-icons/Di${item}`}'
-        })} */}
+        <h3>Description</h3>
+        <p>{description}</p>
+        <div className='info-buttons'>
+          <button title='test' onClick={gitHub} />
+          <button title='test' onClick={demo} />
+        </div>
+        <div className='info-icons'>
+          {logos.map((item, i) => {
+            return <span>{item}</span>;
+          })}
+        </div>
       </div>
     </div>
   );
