@@ -15,6 +15,9 @@ import education from '../../assets/Graduation Cap.svg';
 import hobby from '../../assets/Hobby.svg';
 import arrow from '../../assets/Down Arrow.svg';
 
+//resume
+import resume from '../../assets/documents/Keegan Mongru Software Resume.pdf';
+
 const TextItem = ({ emoji, title, text }) => {
   return (
     <div className={'TLDR-container-item-' + title}>
@@ -47,7 +50,7 @@ const Hero = (props) => {
       </div>
       <div className='button-container'>
         <Button text='Contact Me' onClick={() => {}} />
-        <Button text='PDF Resume' onClick={() => {}} />
+        <Button text='PDF Resume' onClick={() => {}} link={resume} />
       </div>
       <div className='TLDR'>
         <div className='TLDR-title'>

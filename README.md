@@ -16,3 +16,11 @@ for easily animation -> https://animista.net/play/basic
 # Notes
 
 css naming convention -> BEM -> Block Element Modifier
+
+# Projects
+
+Trading Algo
+
+- allow user to pick a stock with a history of 1 year (pull from yahoo?)
+- pull the stock and show my algo's buy/sells over the year
+- show the P&L of the algo?

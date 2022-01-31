@@ -3,6 +3,7 @@
   border-radius: 30em;
   box-shadow: var(--ui-shadow);
   width: 300px;
+  height: 500px;
   margin: 0rem auto;
   position: relative;
   transition: 0.4s ease-out;
@@ -38,37 +39,64 @@
 }
 
 .card_container .info {
-  display: flex;
+  display: none;
+  height: 100%;
   flex-direction: column;
+  justify-content: space-around;
   position: relative;
   z-index: 3;
-  color: white;
   opacity: 0;
+  padding: 15em;
+}
+.card_container .info p {
+  color: whitesmoke;
 }
 
-.card_container .info-icons {
+.card_container .info .info-icons {
   display: flex;
   justify-content: center;
   align-items: center;
   position: relative;
+  color: white;
+}
+
+.card_container .info .info-links {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  position: relative;
+}
+
+.card_container .info .info-links a {
+  margin: 10rem 20rem;
+  font-size: 20rem;
 }
 
 /* Animation */
 .card_container:hover {
   transform: translateY(-20px);
 }
-.card_container:hover:before {
+.card_container:hover::before {
   opacity: 1;
 }
 .card_container:hover .info {
+  transition: 0.5s;
   opacity: 1;
-  transform: translateY(0px);
+  display: flex;
 }
+
 .card_container:hover .placeholder {
   display: none;
 }
 
-.card_container:before {
+.card_container .info .info-links a:hover {
+  transform: scale(130%);
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.card_container::before {
   content: '';
   position: absolute;
   top: 0;

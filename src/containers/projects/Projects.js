@@ -16,8 +16,8 @@ import bg_yellow from '../../assets/bg_yellow.svg';
 import bg_green from '../../assets/bg_green.svg';
 import bg_red from '../../assets/bg_red.svg';
 import mobile from '../../assets/Mobile Phone.svg';
-import maze from '../../assets/Maze.svg';
-import trading from '../../assets/Trading.svg';
+import white_maze from '../../assets/White_Maze.svg';
+import white_trading from '../../assets/White_Trading.svg';
 
 const Projects = (props) => {
   return (
@@ -29,13 +29,31 @@ const Projects = (props) => {
       <div className='projects-card_container'>
         <Card
           bg={bg_yellow}
+          theme={'#FDD888'}
           title='Information Collection Tool'
           img={mobile}
           description={
+            'A cross-platform mobile application to collect field sample data for the Grbic research team. Replaced the current paper based collection method and leveraged native devices features (Camera & GPS).'
+          }
+          code={'https://github.com/kMongru/react-native-field-collection-tool'}
+          demo={''}
+          logos={[
+            <DiJavascript1 size={30} />,
+            <DiReact size={30} />,
+            <FaFigma size={20} />,
+            <SiRedux size={20} />,
+          ]}
+        />
+        <Card
+          bg={bg_green}
+          theme={'#8cdc94'}
+          title='Path Finding Visualization'
+          img={white_maze}
+          description={
             'A cross-platform mobile application to collect field sample data for the Grbic research team.'
           }
-          gitHub={}
-          demo={}
+          code={''}
+          demo={''}
           logos={[
             <DiJavascript1 size={40} />,
             <DiReact size={40} />,
@@ -44,14 +62,15 @@ const Projects = (props) => {
           ]}
         />
         <Card
-          bg={bg_green}
-          title='Path Finding Visualization'
-          img={maze}
+          bg={bg_red}
+          theme={'#E98C79'}
+          title='Trading Algorithum'
+          img={white_trading}
           description={
             'A cross-platform mobile application to collect field sample data for the Grbic research team.'
           }
-          gitHub={}
-          demo={}
+          code={''}
+          demo={''}
           logos={[
             <DiJavascript1 size={40} />,
             <DiReact size={40} />,
@@ -59,21 +78,6 @@ const Projects = (props) => {
             <SiRedux size={30} />,
           ]}
         />
-        <Card 
-          bg={bg_red} 
-          title='Trading Algorithum' 
-          img={trading} 
-          description={
-              'A cross-platform mobile application to collect field sample data for the Grbic research team.'
-            }
-          gitHub={}
-          demo={}
-          logos={[
-            <DiJavascript1 size={40} />,
-            <DiReact size={40} />,
-            <FaFigma size={30} />,
-            <SiRedux size={30} />,
-          ]} />
       </div>
     </div>
   );

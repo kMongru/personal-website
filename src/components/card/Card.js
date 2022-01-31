@@ -14,7 +14,7 @@ demo - link to demo
 logos - an array of different icons (languages and frameworks)
 */
 
-const Card = ({ bg, title, img, description, gitHub, demo, logos }) => {
+const Card = ({ bg, title, img, description, code, demo, logos, theme }) => {
   return (
     <div className='card_container' style={{ backgroundImage: `url(${bg})` }}>
       <div className='placeholder'>
@@ -26,11 +26,15 @@ const Card = ({ bg, title, img, description, gitHub, demo, logos }) => {
         </div>
       </div>
       <div className='info'>
-        <h3>Description</h3>
+        <h3 style={{ color: theme }}>Description</h3>
         <p>{description}</p>
-        <div className='info-buttons'>
-          <button title='test' onClick={gitHub} />
-          <button title='test' onClick={demo} />
+        <div className='info-links'>
+          <a href={demo} style={{ color: theme }}>
+            demo
+          </a>
+          <a href={code} target='_blank' style={{ color: theme }}>
+            code
+          </a>
         </div>
         <div className='info-icons'>
           {logos.map((item, i) => {

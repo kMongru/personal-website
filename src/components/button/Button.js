@@ -11,15 +11,17 @@ status -> disabled or enabled
 onClick -> the function called from the button
 */
 
-const Button = ({ text, status = 'enabled', onClick }) => {
+const Button = ({ text, status = 'enabled', onClick, link }) => {
   return (
-    <button
-      className='btn'
-      onClick={onClick}
-      disabled={status == 'disabled' ? true : false}
-    >
-      {text}
-    </button>
+    <a href={link} target='_blank'>
+      <button
+        className='btn'
+        onClick={onClick}
+        disabled={status == 'disabled' ? true : false}
+      >
+        {text}
+      </button>
+    </a>
   );
 };
 
