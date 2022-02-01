@@ -22,3 +22,8 @@
   /* shadow utilities */
   --ui-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
 }
+
+[data-theme='dark'] {
+  --color-bg: #18191A;
+  --text: #fff;
+}

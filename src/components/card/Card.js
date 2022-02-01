@@ -26,8 +26,10 @@ const Card = ({ bg, title, img, description, code, demo, logos, theme }) => {
         </div>
       </div>
       <div className='info'>
-        <h3 style={{ color: theme }}>Description</h3>
-        <p>{description}</p>
+        <div className='info-description_container'>
+          <h3 style={{ color: theme }}>Description</h3>
+          <p>{description}</p>
+        </div>
         <div className='info-links'>
           <a href={demo} style={{ color: theme }}>
             demo

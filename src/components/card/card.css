@@ -18,11 +18,11 @@
 .placeholder .title {
   flex: 1;
   padding: 10rem 0rem 0rem 10rem;
-  color: white;
 }
 
 .placeholder .title h3 {
   max-width: 200px;
+  color: white;
 }
 
 .placeholder .img_container {
@@ -52,16 +52,16 @@
   color: whitesmoke;
 }
 
-.card_container .info .info-icons {
+.card_container .info .info-description_container {
   display: flex;
-  justify-content: center;
-  align-items: center;
-  position: relative;
-  color: white;
+  flex-direction: column;
+  flex: 3;
+  margin-top: 20rem;
 }
 
 .card_container .info .info-links {
   display: flex;
+  flex: 2;
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
@@ -71,6 +71,15 @@
 .card_container .info .info-links a {
   margin: 10rem 20rem;
   font-size: 20rem;
+}
+
+.card_container .info .info-icons {
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  color: white;
 }
 
 /* Animation */

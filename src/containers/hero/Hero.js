@@ -44,7 +44,7 @@ const Hero = (props) => {
           <h4>
             Allow me to introduce myself: My name is <span>Keegan Mongru</span>,
             interested in exploring the intersection of <span>finance</span> and
-            <span> technology</span>
+            <span> technology</span>.
           </h4>
         </div>
       </div>

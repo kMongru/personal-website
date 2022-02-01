@@ -10,8 +10,10 @@ crl + / => creates a comment
 
 # Resources
 
-for cool background -> https://angrytools.com/gradient
+for gradient background -> https://angrytools.com/gradient
+for cool background -> https://bgjar.com/
 for easily animation -> https://animista.net/play/basic
+light/dark -> https://css-tricks.com/easy-dark-mode-and-multiple-color-themes-in-react/
 
 # Notes
 

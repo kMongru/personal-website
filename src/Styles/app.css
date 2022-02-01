@@ -6,7 +6,7 @@
   scroll-behavior: smooth;
 }
 
-body {
+.App {
   font-family: var(--font-family);
   background: var(--color-bg);
 }
@@ -32,6 +32,7 @@ h2 {
 }
 
 h3 {
+  color: var(--text);
   font-size: 25rem;
 }
 
