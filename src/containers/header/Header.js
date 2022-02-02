@@ -3,6 +3,7 @@ import PropTypes from 'prop-types';
 
 import Toggle from 'react-toggle';
 import Switch from 'react-switch';
+import { Link } from 'react-router-dom';
 
 //icon imports
 import { RiMenuLine, RiCloseLine } from 'react-icons/ri';
@@ -16,13 +17,13 @@ const Menu = ({ isOpen }) => {
   return (
     <div className={'menu-' + isOpen}>
       <h3>
-        <a href='/'>Projects</a>
+        <Link to='/projects'>Projects</Link>
       </h3>
       <h3>
-        <a href='/'>About Me</a>
+        <Link to='/about'>About Me</Link>
       </h3>
       <h3>
-        <a href='/'>Contact</a>
+        <Link to='/contact'>Contact</Link>
       </h3>
     </div>
   );

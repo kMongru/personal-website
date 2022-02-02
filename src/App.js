@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import { BrowserRouter, Redirect, Route } from 'react-router-dom';
 import useLocalStorage from 'use-local-storage';
 
 //styling
@@ -26,6 +27,13 @@ function App() {
 
   return (
     <div className='App' data-theme={theme}>
+      {/* <BroswerRouter>
+        <Route exact path='/' component={Home} />
+        <Route exact path='/home' component={Home} />
+        <Route exact path='/about' component={About} />
+        <Route exact path='/contact' component={Projects} />
+        <Route exact path='/contact' component={Contact} />
+      </BroswRouter> */}
       <section className='hero'>
         <Header switchTheme={switchTheme} />
         <Hero />
