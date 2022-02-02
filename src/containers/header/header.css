@@ -13,8 +13,10 @@
 }
 
 .header-links-toggle {
+  display: flex;
   flex: 1;
   align-items: center;
+  justify-content: flex-start;
 }
 
 .header-links-toggle img {

@@ -21,7 +21,7 @@ import white_trading from '../../assets/White_Trading.svg';
 
 const Projects = (props) => {
   return (
-    <div>
+    <div className='projects_wrapper'>
       <div className='projects-title'>
         <h2>My Favourite Projects</h2>
         <img src={bulb} alt='light-bulb' />
@@ -64,7 +64,7 @@ const Projects = (props) => {
         <Card
           bg={bg_red}
           theme={'#E98C79'}
-          title='Trading Algorithum'
+          title='Trading Algorithm'
           img={white_trading}
           description={
             'A cross-platform mobile application to collect field sample data for the Grbic research team.'

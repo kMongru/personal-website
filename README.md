@@ -14,6 +14,7 @@ for gradient background -> https://angrytools.com/gradient
 for cool background -> https://bgjar.com/
 for easily animation -> https://animista.net/play/basic
 light/dark -> https://css-tricks.com/easy-dark-mode-and-multiple-color-themes-in-react/
+arrow -> https://codepen.io/JakubHonisek/pen/qjpeeO
 
 # Notes
 

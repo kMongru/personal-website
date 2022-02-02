@@ -68,7 +68,7 @@ const Header = ({ switchTheme }) => {
           </div>
         </div>
         {/* Menu, change to modal here! */}
-        {/* <div className='header-menu'>
+        <div className='header-menu'>
           {toggleMenu ? (
             <RiCloseLine
               color='#000'
@@ -82,15 +82,15 @@ const Header = ({ switchTheme }) => {
               onClick={() => setToggleMenu(true)}
             />
           )}
-        </div> */}
+        </div>
       </div>
-      {/* {toggleMenu && (
+      {toggleMenu && (
         <div className='header-menu-modal'>
           <div className='header-menu-modal-container'>
             <Menu isOpen={toggleMenu} />
           </div>
         </div>
-      )} */}
+      )}
     </>
   );
 };

@@ -39,6 +39,10 @@ img {
   margin: 50rem;
 }
 
+.TLDR {
+  padding: 25rem;
+}
+
 .TLDR-title,
 .item-titles {
   display: flex;
@@ -52,11 +56,6 @@ img {
   grid-template-columns: repeat(3, 1fr);
   grid-template-columns: repeat(3, minmax(300px, 1fr));
   margin-top: 50rem;
-}
-
-.TLDR-title,
-.TLDR-container {
-  margin-left: 30rem;
 }
 
 .item-text {
