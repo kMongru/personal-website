@@ -1,8 +1,13 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import Wrapper from '../Wrapper';
 
 const AboutPage = (props) => {
-  return <div>The About Page</div>;
+  return (
+    <Wrapper>
+      <div>The About Page</div>
+    </Wrapper>
+  );
 };
 
 AboutPage.propTypes = {};

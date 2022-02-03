@@ -8,8 +8,15 @@ const Footer = (props) => {
   return (
     <div className='footer_container'>
       <p>
-        Keegan Mongru - <a href='/'>LinkedIn</a> - <a href='/'>Github</a> -
-        <a href='/'>Email</a>
+        @2022 Keegan Mongru -
+        <a href='https://www.linkedin.com/in/keegan-mongru/' target='_blank'>
+          LinkedIn
+        </a>
+        -
+        <a href='https://github.com/kMongru' target='_blank'>
+          Github
+        </a>{' '}
+        -<a href='/'>Email</a>
       </p>
     </div>
   );

@@ -36,7 +36,9 @@ const Projects = (props) => {
             'A cross-platform mobile application to collect field sample data for the Grbic research team. Replaced the current paper based collection method and leveraged native devices features (Camera & GPS).'
           }
           code={'https://github.com/kMongru/react-native-field-collection-tool'}
-          demo={''}
+          demo={
+            'https://drive.google.com/file/d/1OZXzRnDZ1_5AE-RaDja-asI5yj0y6Ibb/view?usp=sharing'
+          }
           logos={[
             <DiJavascript1 size={30} />,
             <DiReact size={30} />,

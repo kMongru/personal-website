@@ -61,7 +61,9 @@ const Header = ({ switchTheme }) => {
           </div>
 
           <div className='header-links-name'>
-            <h1>KEEGAN MONGRU</h1>
+            <h1>
+              <Link to='/'>KEEGAN MONGRU</Link>
+            </h1>
           </div>
 
           <div className='header-links-container'>

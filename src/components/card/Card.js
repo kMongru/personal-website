@@ -31,7 +31,7 @@ const Card = ({ bg, title, img, description, code, demo, logos, theme }) => {
           <p>{description}</p>
         </div>
         <div className='info-links'>
-          <a href={demo} style={{ color: theme }}>
+          <a href={demo} target='_blank' style={{ color: theme }}>
             demo
           </a>
           <a href={code} target='_blank' style={{ color: theme }}>

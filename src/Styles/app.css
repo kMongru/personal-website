@@ -6,7 +6,7 @@
   scroll-behavior: smooth;
 }
 
-.App {
+body {
   font-family: var(--font-family);
   background: var(--color-bg);
 }
