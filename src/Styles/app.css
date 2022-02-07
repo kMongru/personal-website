@@ -24,28 +24,28 @@ h4 {
 }
 
 h1 {
-  font-size: 40rem;
+  font-size: clamp(20rem, 3vw, 40rem);
 }
 
 h2 {
-  font-size: 45rem;
+  font-size: clamp(30rem, 2.5vw, 45rem);
 }
 
 h3 {
   color: var(--text);
-  font-size: 25rem;
+  font-size: clamp(20rem, 2.5vw, 25rem);
 }
 
 h4 {
   font-weight: 400;
   color: var(--text);
-  font-size: 35rem;
+  font-size: clamp(20rem, 2.5vw, 35rem);
 }
 
 p {
   font-weight: 300;
   color: var(--text);
-  font-size: 20rem;
+  font-size: clamp(18rem, 2.5vw, 20rem);
 }
 
 .section__padding {
@@ -73,30 +73,6 @@ section {
   .section__margin {
     margin: 4rem;
   }
-
-  h1 {
-    font-size: 40rem;
-  }
-
-  h2 {
-    font-size: 45rem;
-  }
-
-  h3 {
-    font-size: 25rem;
-  }
-
-  h4 {
-    font-weight: 400;
-    color: var(--text);
-    font-size: 35rem;
-  }
-
-  p {
-    font-weight: 300;
-    color: var(--text);
-    font-size: 20rem;
-  }
 }
 
 @media screen and (max-width: 425px) {
@@ -107,25 +83,5 @@ section {
 
   .section__margin {
     margin: 4rem 2rem;
-  }
-
-  h1 {
-    font-size: 40rem;
-  }
-
-  h2 {
-    font-size: 30rem;
-  }
-
-  h3 {
-    font-size: 25rem;
-  }
-
-  h4 {
-    font-size: 35rem;
-  }
-
-  p {
-    font-size: 18rem;
   }
 }

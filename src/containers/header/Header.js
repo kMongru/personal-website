@@ -69,28 +69,28 @@ const Header = ({ switchTheme }) => {
           <div className='header-links-container'>
             <Menu isOpen={toggleMenu} />
           </div>
-        </div>
-        {/* Menu, change to modal here! */}
-        <div className='header-menu'>
-          {toggleMenu ? (
-            <RiCloseLine
-              color='#000'
-              size={27}
-              onClick={() => setToggleMenu(false)}
-            />
-          ) : (
-            <RiMenuLine
-              color='#000'
-              size={27}
-              onClick={() => setToggleMenu(true)}
-            />
-          )}
+          {/* Menu, change to modal here! */}
+          <div className='header-menu'>
+            {toggleMenu ? (
+              <RiCloseLine
+                color={checked ? '#000' : '#fff'}
+                size={35}
+                onClick={() => setToggleMenu(false)}
+              />
+            ) : (
+              <RiMenuLine
+                color={checked ? '#fff' : '#000'}
+                size={27}
+                onClick={() => setToggleMenu(true)}
+              />
+            )}
+          </div>
         </div>
       </div>
       {toggleMenu && (
         <div className='header-menu-modal'>
           <div className='header-menu-modal-container'>
-            <Menu isOpen={toggleMenu} />
+            <Menu isOpen={true} />
           </div>
         </div>
       )}

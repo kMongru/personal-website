@@ -1,5 +1,6 @@
 .footer_container {
   display: flex;
   justify-content: center;
-  padding-bottom: 15em;
+  padding: 15rem 10rem;
+  text-align: center;
 }

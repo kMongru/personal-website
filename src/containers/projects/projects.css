@@ -13,7 +13,6 @@
 
 .projects-card_container {
   display: grid;
-  /* height: 50vh; */
   gap: 20rem;
   grid-template-columns: repeat(3, 1fr);
   margin-top: 70rem;
@@ -21,12 +20,35 @@
 }
 
 @media screen and (max-width: 1024px) {
-  .TLDR-container {
-    grid-template-columns: repeat(2, 1fr);
+  .projects-card_container {
+    grid-template-columns:
+      10px
+      repeat(3, calc(50% - 40px))
+      10px;
+    grid-template-rows: minmax(300px, 1fr);
+    overflow-x: scroll;
+    padding-top: 20px;
+    margin-top: 20rem;
+  }
+
+  .projects-card_container::before,
+  .projects-card_container::after {
+    content: '';
   }
 }
 
 @media screen and (max-width: 768px) {
+  .projects-card_container {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 30rem;
+    margin-bottom: 10rem;
+    grid-template-rows: auto;
+  }
+
+  .projects-card_container::before,
+  .projects-card_container::after {
+    content: none;
+  }
 }
 
 @media screen and (max-width: 425px) {

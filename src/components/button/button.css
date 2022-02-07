@@ -3,7 +3,7 @@
   background: var(--primary-green);
 
   color: white;
-  font-size: 25rem;
+  font-size: clamp(20rem, 2.5vw, 25rem);
   font-weight: 600;
 
   border: none;
@@ -15,4 +15,8 @@
   box-shadow: var(--ui-shadow);
 
   cursor: pointer;
+}
+
+.btn:hover {
+  transform: scale(105%);
 }
