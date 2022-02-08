@@ -1,13 +1,11 @@
 import React, { useState } from 'react';
 import PropTypes from 'prop-types';
 
-import Toggle from 'react-toggle';
 import Switch from 'react-switch';
 import { Link } from 'react-router-dom';
 
 //icon imports
 import { RiMenuLine, RiCloseLine } from 'react-icons/ri';
-import { MdOutlineLightMode, MdOutlineDarkMode } from 'react-icons/md';
 
 //styling
 import './header.css';
@@ -29,9 +27,8 @@ const Menu = ({ isOpen }) => {
   );
 };
 
-const Header = ({ switchTheme }) => {
+const Header = ({ switchTheme, theme }) => {
   const [toggleMenu, setToggleMenu] = useState(false);
-  const [checked, setChecked] = useState(false);
 
   return (
     <>
@@ -40,9 +37,8 @@ const Header = ({ switchTheme }) => {
           <div className='header-links-toggle'>
             <label>
               <Switch
-                checked={checked}
+                checked={theme === 'light' ? false : true}
                 onChange={() => {
-                  setChecked((prev) => !prev);
                   switchTheme();
                 }}
                 onColor='#86d3ff'
@@ -73,13 +69,13 @@ const Header = ({ switchTheme }) => {
           <div className='header-menu'>
             {toggleMenu ? (
               <RiCloseLine
-                color={checked ? '#000' : '#fff'}
+                color={theme === 'light' ? '#000' : '#fff'}
                 size={35}
                 onClick={() => setToggleMenu(false)}
               />
             ) : (
               <RiMenuLine
-                color={checked ? '#fff' : '#000'}
+                color={theme === 'light' ? '#fff' : '#000'}
                 size={27}
                 onClick={() => setToggleMenu(true)}
               />

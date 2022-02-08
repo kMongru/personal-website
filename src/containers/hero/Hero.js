@@ -43,7 +43,8 @@ const Hero = (props) => {
         <div className='intro-text'>
           <h4>
             Allow me to introduce myself: My name is <span>Keegan Mongru</span>,
-            interested in exploring the intersection of <span>finance</span> and
+            a dual degree student interested in exploring the intersection of{' '}
+            <span>finance</span> and
             <span> technology</span>.
           </h4>
         </div>
@@ -66,7 +67,7 @@ const Hero = (props) => {
           <TextItem
             emoji={breifcase}
             title='Past Work Experience'
-            text='For the past summer I worked as a mobile app developer at Western University. (see project)'
+            text='For the past summer I worked as an undergraduate researcher at Western University. During this time, I developed a React Native collection tool to help digitalize the collection of field sample information.'
           />
           <TextItem
             emoji={hobby}
