@@ -18,8 +18,13 @@ const ContactPage = (props) => {
   console.log(errors);
 
   return (
-    <Wrapper>
-      <div className='hero'>
+    <Wrapper hero='hero'>
+      <div className='flex'>
+        <h3>Let's Connect!</h3>
+        <p>
+          I look forward to hearing from you, and will try my best to return
+          your message within 3 business days.
+        </p>
         <div className='container'>
           <form onSubmit={handleSubmit(onSubmit)}>
             <input

@@ -69,13 +69,13 @@ const Header = ({ switchTheme, theme }) => {
           <div className='header-menu'>
             {toggleMenu ? (
               <RiCloseLine
-                color={theme === 'light' ? '#000' : '#fff'}
+                color={'dark-red'}
                 size={35}
                 onClick={() => setToggleMenu(false)}
               />
             ) : (
               <RiMenuLine
-                color={theme === 'light' ? '#fff' : '#000'}
+                color={theme === 'light' ? '#000' : '#fff'}
                 size={27}
                 onClick={() => setToggleMenu(true)}
               />

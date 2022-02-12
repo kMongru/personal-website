@@ -9,10 +9,10 @@ import './projectsPage.css';
 const ProjectsPage = (props) => {
   return (
     <Wrapper>
-      <section className='hero'>
+      <div className='flex'>
         <h2>The Projects Page</h2>
         <img src={wip_animation} alt='Work in Progress' />
-      </section>
+      </div>
     </Wrapper>
   );
 };

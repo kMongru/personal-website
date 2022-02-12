@@ -16,15 +16,13 @@ crl + / => creates a comment
 - light/dark -> https://css-tricks.com/easy-dark-mode-and-multiple-color-themes-in-react/
 - arrow -> https://codepen.io/JakubHonisek/pen/qjpeeO
 - grid -> https://uxdesign.cc/creating-horizontal-scrolling-containers-the-right-way-css-grid-c256f64fc585
+- form validation -> https://react-hook-form.com/
 
 # Notes
 
 css naming convention -> BEM -> Block Element Modifier
 
 # Currently working on
-
-- header adjusting to size
-- need to fix the font sizes on different screens (or clamp?)
 
 # Projects
 
