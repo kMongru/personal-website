@@ -8,8 +8,8 @@ import './projectsPage.css';
 
 const ProjectsPage = (props) => {
   return (
-    <Wrapper>
-      <div className='flex'>
+    <Wrapper full='full'>
+      <div className='projects-flex'>
         <h2>The Projects Page</h2>
         <img src={wip_animation} alt='Work in Progress' />
       </div>

@@ -23,7 +23,7 @@ const Wrapper = (props) => {
   };
 
   return (
-    <div className='wrapper_container' data-theme={theme}>
+    <div className={`wrapper_container ${props.full}`} data-theme={theme}>
       <Header switchTheme={switchTheme} theme={theme} />
       {props.children}
       <Footer />

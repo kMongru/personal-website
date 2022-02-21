@@ -6,6 +6,7 @@ import './hero.css';
 
 //custom components
 import { Button } from '../../components';
+import { Link } from 'react-router-dom';
 
 //images
 import hand from '../../assets/Waving Hand.svg';
@@ -43,8 +44,8 @@ const Hero = (props) => {
         <div className='intro-text'>
           <h4>
             Allow me to introduce myself: My name is <span>Keegan Mongru</span>,
-            a dual degree student interested in exploring the intersection of{' '}
-            <span>finance</span> and
+            a dual degree student interested in exploring the intersection of
+            <span> finance</span> and
             <span> technology</span>.
           </h4>
         </div>

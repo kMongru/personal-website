@@ -1,0 +1,13 @@
+.about-flex {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 30rem;
+  height: 85vh;
+}
+
+.about-flex img {
+  height: 50vh;
+  width: 50vh;
+}

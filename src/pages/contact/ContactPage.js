@@ -1,46 +1,91 @@
-import React from 'react';
+import React, { useRef } from 'react';
 import PropTypes from 'prop-types';
 
-import wip_animation from '../../assets/wip_animation.gif';
 import Wrapper from '../Wrapper';
 import { useForm } from 'react-hook-form';
+import emailjs from '@emailjs/browser';
 
+//styling
 import './contactPage.css';
 
 const ContactPage = (props) => {
+  const form = useRef();
+
+  //form hook instance
   const {
     register,
     handleSubmit,
+    reset,
     formState: { errors },
-  } = useForm();
+  } = useForm({
+    defaultValues: {
+      name: '',
+      email: '',
+      message: '',
+    },
+  });
 
-  const onSubmit = (data) => console.log(data);
+  const sendEmail = (e) => {
+    emailjs
+      .sendForm(
+        'service_smn99oh',
+        'template_gmail',
+        form.current,
+        'user_k0DRZN88Gi368znDPvxkC'
+      )
+      .then(
+        (result) => {
+          console.log(result.text);
+        },
+        (error) => {
+          console.log(error.text);
+        }
+      );
+  };
+
+  // const onSubmit = (data) => console.log(data);
+
   console.log(errors);
 
   return (
-    <Wrapper hero='hero'>
-      <div className='flex'>
-        <h3>Let's Connect!</h3>
-        <p>
-          I look forward to hearing from you, and will try my best to return
-          your message within 3 business days.
-        </p>
-        <div className='container'>
-          <form onSubmit={handleSubmit(onSubmit)}>
+    <Wrapper full='full'>
+      <div className='contact-flex'>
+        <div className='contact-flex-text'>
+          <h3>Let's Connect!</h3>
+          <p>
+            I look forward to hearing from you, and will try my best to return
+            your message within 3 business days.
+          </p>
+        </div>
+        <div className='contact-flex_container'>
+          <form
+            ref={form}
+            onSubmit={handleSubmit(() => {
+              sendEmail();
+              reset();
+            })}
+          >
             <input
               type='text'
-              placeholder='Email'
-              {...register('Email', { required: true, pattern: /^\S+@\S+$/i })}
+              className={errors.name ? 'red-outline' : null}
+              placeholder='Full Name'
+              {...register('name', { required: true, maxLength: 80 })}
             />
             <input
               type='text'
-              placeholder='Name'
-              {...register('Name', { required: true, maxLength: 80 })}
+              className={errors.email ? 'red-outline' : null}
+              placeholder='Email'
+              {...register('email', {
+                required: true,
+                pattern: /\S+@\S+\.\S+/i,
+              })}
             />
             <textarea
-              {...register('Message', { required: true, maxLength: 300 })}
+              className={errors.message ? 'red-outline' : null}
+              placeholder='Message'
+              {...register('message', { required: true, maxLength: 250 })}
             />
-            <input type='submit' />
+            <input type='submit' value='Send' />
           </form>
         </div>
       </div>

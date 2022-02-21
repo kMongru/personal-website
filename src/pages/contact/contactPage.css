@@ -1,20 +1,10 @@
-.flex {
+.contact-flex {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
-  padding: 30rem;
+  padding: 70rem 30rem;
   height: 85vh;
-}
-
-.form {
-  max-width: 800px;
-  margin: 0 auto;
-}
-
-.p {
-  color: #bf1650;
-  text-align: center;
 }
 
 textarea,
@@ -22,12 +12,23 @@ select,
 input {
   display: block;
   box-sizing: border-box;
-  width: 100%;
-  border-radius: 4px;
+  width: 50vw;
+  max-width: 800px;
+  border-radius: 2rem;
   border: 1px solid black;
   padding: 10px 15px;
   margin-bottom: 15px;
-  font-size: 14px;
+  font-family: var(--font-family);
+}
+
+.contact-flex_container .red-outline {
+  border-color: var(--error-red);
+}
+
+.contact-flex_container .red-outline:focus {
+  border-color: var(--error-red);
+  border-width: 2rem;
+  outline: none;
 }
 
 .label,
@@ -42,10 +43,9 @@ section > label {
   font-weight: 200;
 }
 
-input[type='submit'],
-.button {
+input[type='submit'] {
   position: relative;
-  background: #ec5990;
+  background: var(--primary-green);
   color: white;
   text-transform: uppercase;
   border: none;
@@ -58,43 +58,27 @@ input[type='submit'],
   appearance: none;
   border-radius: 4px;
   width: 200px;
-  font-weight: 400;
   letter-spacing: 0.5rem;
   transition: 0.3s all;
 }
 
-.buttonBlack {
-  background: black;
-  border: 1px solid white;
-}
-
-.container {
+.contact-flex_container {
   display: grid;
   grid-template-columns: 1fr;
   grid-gap: 20px;
-  width: 800px;
+  max-width: 800px;
   padding: 10rem;
-  background-color: var(--primary-green);
+  background-color: white;
   border-radius: 15rem;
   box-shadow: var(--ui-shadow);
   z-index: 2;
   margin-top: 20rem;
 }
 
-button[type='button'] {
-  padding: 5px;
-  background: #516391;
+input[type='submit']:hover {
+  background: var(--primary-darkGreen);
   color: white;
-  letter-spacing: 0px;
-  text-transform: none;
-  padding: 10px;
-  letter-spacing: 1px;
-}
-
-input[type='submit']:hover,
-button[type='button']:hover {
-  background: #bf1650;
-  color: white;
+  cursor: pointer;
 }
 
 input[type='submit']:active {

@@ -1,12 +1,13 @@
-.flex {
-  /* height: 85vh;
-  width: 100vw;
+.projects-flex {
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center; */
+  justify-content: flex-start;
+  align-items: center;
+  padding: 30rem;
+  height: 85vh;
 }
 
-h2 {
-  /* color: red; */
+.projects-flex img {
+  height: 50vh;
+  width: 50vh;
 }

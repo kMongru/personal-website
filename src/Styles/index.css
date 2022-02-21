@@ -8,9 +8,10 @@
 
   /* commonly used colors */
   --primary-green: #8cdc94;
+  --primary-darkGreen: #5b9c62;
   --primary-yellow: #FDD888;
   --primary-red: #E98C79;
-  --error-red: #f95f5f;
+  --error-red: #f79d9d;
   --text: #3c403d;
   --color-bg: #fff
   --white: #fff;

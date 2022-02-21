@@ -17,6 +17,7 @@ crl + / => creates a comment
 - arrow -> https://codepen.io/JakubHonisek/pen/qjpeeO
 - grid -> https://uxdesign.cc/creating-horizontal-scrolling-containers-the-right-way-css-grid-c256f64fc585
 - form validation -> https://react-hook-form.com/
+- email submission -> https://www.emailjs.com/
 
 # Notes
 
