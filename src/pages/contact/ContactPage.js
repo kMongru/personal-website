@@ -1,9 +1,11 @@
 import React, { useRef } from 'react';
 import PropTypes from 'prop-types';
-
-import Wrapper from '../Wrapper';
 import { useForm } from 'react-hook-form';
 import emailjs from '@emailjs/browser';
+
+//custom imports
+import Wrapper from '../Wrapper';
+import envelope from '../../assets/Envelope.svg';
 
 //styling
 import './contactPage.css';
@@ -51,7 +53,10 @@ const ContactPage = (props) => {
     <Wrapper full='full'>
       <div className='contact-flex'>
         <div className='contact-flex-text'>
-          <h3>Let's Connect!</h3>
+          <div className='contact-flex-text-title'>
+            <h3>Let's Connect!</h3>
+            <img src={envelope} alt='envelope' />
+          </div>
           <p>
             I look forward to hearing from you, and will try my best to return
             your message within 3 business days.

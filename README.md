@@ -19,6 +19,10 @@ crl + / => creates a comment
 - form validation -> https://react-hook-form.com/
 - email submission -> https://www.emailjs.com/
 
+- shutter animation
+- framer motion
+- intersection observer
+
 # Notes
 
 css naming convention -> BEM -> Block Element Modifier

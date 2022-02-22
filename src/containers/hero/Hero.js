@@ -43,7 +43,7 @@ const Hero = (props) => {
         </div>
         <div className='intro-text'>
           <h4>
-            Allow me to introduce myself: My name is <span>Keegan Mongru</span>,
+            Allow me to introduce myself: my name is <span>Keegan Mongru</span>,
             a dual degree student interested in exploring the intersection of
             <span> finance</span> and
             <span> technology</span>.

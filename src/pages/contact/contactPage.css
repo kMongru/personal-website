@@ -7,6 +7,35 @@
   height: 85vh;
 }
 
+.contact-flex-text {
+  margin-bottom: 30rem;
+}
+
+.contact-flex-text-title {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.contact-flex-text-title img {
+  height: 40rem;
+  width: 40rem;
+}
+
+.contact-flex_container {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 20px;
+  max-width: 800px;
+  padding: 10rem;
+  padding-top: 20rem;
+  background-color: var(--background-grey);
+  border-radius: 15rem;
+  box-shadow: var(--ui-shadow);
+  z-index: 2;
+  margin-top: 20rem;
+}
+
 textarea,
 select,
 input {
@@ -23,12 +52,6 @@ input {
 
 .contact-flex_container .red-outline {
   border-color: var(--error-red);
-}
-
-.contact-flex_container .red-outline:focus {
-  border-color: var(--error-red);
-  border-width: 2rem;
-  outline: none;
 }
 
 .label,
@@ -62,17 +85,11 @@ input[type='submit'] {
   transition: 0.3s all;
 }
 
-.contact-flex_container {
-  display: grid;
-  grid-template-columns: 1fr;
-  grid-gap: 20px;
-  max-width: 800px;
-  padding: 10rem;
-  background-color: white;
-  border-radius: 15rem;
-  box-shadow: var(--ui-shadow);
-  z-index: 2;
-  margin-top: 20rem;
+/* Animations */
+.contact-flex_container .red-outline:focus {
+  border-color: var(--error-red);
+  border-width: 2rem;
+  outline: none;
 }
 
 input[type='submit']:hover {
