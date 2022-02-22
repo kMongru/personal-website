@@ -3,6 +3,7 @@
   "name": "react-personal-website",
   "version": "0.1.0",
   "private": true,
+  "author": "Keegan Mongru <kmongru.hba2023@ivey.ca",
   "dependencies": {
     "@emailjs/browser": "^3.4.0",
     "@testing-library/jest-dom": "^5.16.1",
@@ -46,6 +47,12 @@
     ]
   },
   "devDependencies": {
-    "gh-pages": "^3.2.3"
-  }
+    "gh-pages": "^3.2.3",
+    "postcss": "^8.4.6"
+  },
+  "keywords": [
+    "Keegan Mongru",
+    "Portfolio",
+    "Showcase"
+  ]
 }
