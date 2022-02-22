@@ -12,7 +12,7 @@ import ContactPage from './pages/contact/ContactPage';
 const rootElement = document.getElementById('root');
 
 ReactDOM.render(
-  <BrowserRouter>
+  <BrowserRouter basename={process.env.PUBLIC_URL}>
     <Routes>
       <Route path='/' element={<App />} />
       <Route path='about' element={<AboutPage />} />
