@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/personal-website/static/css/main.33542a5a.css",
+    "main.js": "/personal-website/static/js/main.39e3602f.js",
+    "static/media/wip_animation.gif": "/personal-website/static/media/wip_animation.d6c52f3d055309f80328.gif",
+    "static/media/Keegan Mongru Software Resume.pdf": "/personal-website/static/media/Keegan Mongru Software Resume.affaf9a4e4bef2e53e58.pdf",
+    "static/media/White_Trading.svg": "/personal-website/static/media/White_Trading.e0f783f02d2bc6be0600f5bab5268594.svg",
+    "static/media/White_Maze.svg": "/personal-website/static/media/White_Maze.5729e65e8f54564bd43e4de0c8eeee5f.svg",
+    "static/media/Waving Hand.svg": "/personal-website/static/media/Waving Hand.3926e43703c4af05c09ff78ba67ff872.svg",
+    "static/media/Stopwatch.svg": "/personal-website/static/media/Stopwatch.89e1751ba0bb0e691ce9828a850296ba.svg",
+    "static/media/Light Bulb.svg": "/personal-website/static/media/Light Bulb.a985e4885699465f80ed75bfb1697d27.svg",
+    "static/media/bg_yellow.svg": "/personal-website/static/media/bg_yellow.de40960a2c3d1da7f72572ce4c904117.svg",
+    "static/media/Graduation Cap.svg": "/personal-website/static/media/Graduation Cap.c97ebd043fce4fc893406b19738a5654.svg",
+    "static/media/bg_red.svg": "/personal-website/static/media/bg_red.b00c1dc1485ad9fcba03678ee85eea38.svg",
+    "static/media/bg_green.svg": "/personal-website/static/media/bg_green.fd5efa260619b703ff657f2db488296d.svg",
+    "static/media/Envelope.svg": "/personal-website/static/media/Envelope.71d41543d6cf5c65121b5417dfdf951a.svg",
+    "static/media/Hobby.svg": "/personal-website/static/media/Hobby.e5f6339240f3d74f14d44b178d2a44c1.svg",
+    "static/media/Briefcase.svg": "/personal-website/static/media/Briefcase.725ba4d4c5ebe4501edd7280a1c080bd.svg",
+    "index.html": "/personal-website/index.html",
+    "static/media/Down Arrow.svg": "/personal-website/static/media/Down Arrow.12e65646e9fb4152a6f96b27b72ce022.svg",
+    "static/media/Mobile Phone.svg": "/personal-website/static/media/Mobile Phone.1427fccfc56ee4cdc3dd3ae592139f17.svg",
+    "main.33542a5a.css.map": "/personal-website/static/css/main.33542a5a.css.map",
+    "main.39e3602f.js.map": "/personal-website/static/js/main.39e3602f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.33542a5a.css",
+    "static/js/main.39e3602f.js"
+  ]
+}
