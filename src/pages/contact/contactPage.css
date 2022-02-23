@@ -32,7 +32,7 @@
   background-color: var(--background-grey);
   border-radius: 15rem;
   box-shadow: var(--ui-shadow);
-  z-index: 2;
+  z-index: 1;
   margin-top: 20rem;
 }
 
