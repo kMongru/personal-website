@@ -1,5 +1,4 @@
 import React from 'react';
-import PropTypes from 'prop-types';
 
 //styling
 import './projects.css';
@@ -84,7 +83,5 @@ const Projects = (props) => {
     </div>
   );
 };
-
-Projects.propTypes = {};
 
 export default Projects;

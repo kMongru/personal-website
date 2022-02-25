@@ -53,17 +53,24 @@ img {
   display: grid;
   gap: 20rem;
   grid-template-columns: repeat(3, 1fr);
-  grid-template-columns: repeat(3, minmax(300px, 1fr));
+  justify-items: center;
   margin: 50rem 0rem;
 }
 
 @media screen and (max-width: 1024px) {
-  .TLDR-container-item-Hobbies {
-    display: none;
+  .TLDR-container {
+    grid-template-columns:
+      10px
+      repeat(3, calc(50% - 40px))
+      10px;
+    grid-template-rows: minmax(300px, 1fr);
+    overflow-x: scroll;
+    padding-bottom: 10rem;
   }
 
-  .TLDR-container {
-    grid-template-columns: repeat(2, 1fr);
+  .TLDR-container::before,
+  .TLDR-container::after {
+    content: '';
   }
 }
 
@@ -73,5 +80,8 @@ img {
 @media screen and (max-width: 425px) {
   .TLDR-container {
     grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: auto;
+    row-gap: 70rem;
+    margin: 0rem;
   }
 }

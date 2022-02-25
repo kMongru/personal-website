@@ -1,8 +1,9 @@
 .text-card_container {
+  max-width: 400px;
+  border-radius: 20rem;
   background-color: var(--card-bg);
   z-index: 1;
   box-shadow: var(--ui-shadow);
-  border-radius: 20rem;
   overflow: hidden;
 }
 

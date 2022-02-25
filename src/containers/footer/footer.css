@@ -16,6 +16,10 @@
   align-items: center;
 }
 
+.footer-row a {
+  cursor: pointer;
+}
+
 .footer-margins {
   margin: 0rem 9rem;
 }
@@ -23,4 +27,16 @@
 .footer-white {
   color: var(--white);
   font-size: 17rem;
+}
+
+@media screen and (max-width: 1024px) {
+}
+
+@media screen and (max-width: 768px) {
+}
+
+@media screen and (max-width: 425px) {
+  .footer-hidden {
+    display: none;
+  }
 }

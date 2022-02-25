@@ -16,7 +16,7 @@ const Footer = (props) => {
 
   return (
     <div className='footer_container'>
-      <div className='footer-row'>
+      <div className='footer-row footer-hidden'>
         <AiOutlineCopyrightCircle size={30} color={'white'} />
         <p className='footer-white footer-margins'>2022 Keegan Mongru</p>
       </div>
@@ -39,7 +39,7 @@ const Footer = (props) => {
           <AiOutlineMail size={30} color={'white'} />
         </a>
       </div>
-      <div className='footer-row'>
+      <div className='footer-row footer-hidden'>
         <a className='footer-margins footer-white'>{site}</a>
         <p className='footer-white'> & </p>
         <a className='footer-margins'>
