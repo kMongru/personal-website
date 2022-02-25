@@ -6,14 +6,18 @@
   font-size: 6.25%;
   /* could import gradients here */
 
+  /*light mode defaults */
+  --text: #3c403d;
+  --color-bg: #fff;
+  --footer-bg: #18191a;
+  --card-bg: #fff;
+
   /* commonly used colors */
   --primary-green: #8cdc94;
   --primary-darkGreen: #5b9c62;
-  --primary-yellow: #FDD888;
-  --primary-red: #E98C79;
+  --primary-yellow: #fdd888;
+  --primary-red: #e98c79;
   --error-red: #f79d9d;
-  --text: #3c403d;
-  --color-bg: #fff
   --white: #fff;
   --background-grey: #f7f7f9;
   --grey: #a0a0a0;
@@ -25,6 +29,8 @@
 }
 
 [data-theme='dark'] {
-  --color-bg: #18191A;
+  --color-bg: #18191a;
   --text: #fff;
+  --footer-bg: #2c2e30;
+  --card-bg: #2c2e30;
 }

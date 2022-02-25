@@ -48,6 +48,15 @@ const Card = ({ bg, title, img, description, code, demo, logos, theme }) => {
   );
 };
 
-Card.propTypes = {};
+Card.propTypes = {
+  bg: PropTypes.string,
+  title: PropTypes.string,
+  img: PropTypes.string,
+  description: PropTypes.string,
+  code: PropTypes.string,
+  demo: PropTypes.string,
+  logos: PropTypes.object,
+  theme: PropTypes.string,
+};
 
 export default Card;

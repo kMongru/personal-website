@@ -94,6 +94,6 @@ const Header = ({ switchTheme, theme }) => {
   );
 };
 
-Header.propTypes = {};
+Header.propTypes = { switchTheme: PropTypes.func, theme: PropTypes.string };
 
 export default Header;

@@ -43,8 +43,7 @@ img {
   padding: 25rem;
 }
 
-.TLDR-title,
-.item-titles {
+.TLDR-title {
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -55,23 +54,7 @@ img {
   gap: 20rem;
   grid-template-columns: repeat(3, 1fr);
   grid-template-columns: repeat(3, minmax(300px, 1fr));
-  margin-top: 50rem;
-}
-
-.item-text {
-  margin-left: 45px;
-}
-
-.centered-div {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding: 50rem 0rem 5rem 5rem;
-}
-
-/* ARROWS ANIMATION */
-.centered-div img {
-  display: flex;
+  margin: 50rem 0rem;
 }
 
 @media screen and (max-width: 1024px) {

@@ -1,8 +1,26 @@
 .footer_container {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
+  flex-direction: row;
+  align-items: space-between;
   padding: 15rem 10rem;
   text-align: center;
-  /* position: absolute;
-  bottom: 10rem; */
+  background-color: var(--footer-bg);
+}
+
+.footer-row {
+  display: flex;
+  flex-direction: row;
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-margins {
+  margin: 0rem 9rem;
+}
+
+.footer-white {
+  color: var(--white);
+  font-size: 17rem;
 }

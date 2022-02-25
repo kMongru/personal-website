@@ -1,12 +1,10 @@
 import React from 'react';
-import PropTypes from 'prop-types';
 
 //styling
 import './hero.css';
 
 //custom components
-import { Button } from '../../components';
-import { Link } from 'react-router-dom';
+import { Button, TextCard } from '../../components';
 
 //images
 import hand from '../../assets/Waving Hand.svg';
@@ -14,24 +12,9 @@ import timer from '../../assets/Stopwatch.svg';
 import breifcase from '../../assets/Briefcase.svg';
 import education from '../../assets/Graduation Cap.svg';
 import hobby from '../../assets/Hobby.svg';
-import arrow from '../../assets/Down Arrow.svg';
 
 //resume
 import resume from '../../assets/documents/Keegan Mongru Software Resume.pdf';
-
-const TextItem = ({ emoji, title, text }) => {
-  return (
-    <div className={'TLDR-container-item-' + title}>
-      <div className='item-titles'>
-        <img src={emoji} alt='Waving Emoji' />
-        <h3>{title}</h3>
-      </div>
-      <div className='item-text'>
-        <p>{text}</p>
-      </div>
-    </div>
-  );
-};
 
 const Hero = (props) => {
   return (
@@ -60,30 +43,25 @@ const Hero = (props) => {
           <img src={timer} alt='Timer Emoji' />
         </div>
         <div className='TLDR-container'>
-          <TextItem
-            emoji={education}
+          <TextCard
+            icon={education}
             title='Education'
-            text='A 3.9 GPA student taking Honors Business Administration (HBA) at the Ivey Business School & planning to continue Software Enginering (BESc) at Western University.'
+            content='A 3.9 GPA student taking Honors Business Administration (HBA) at Ivey Business School & planning to continue Software Enginering (BESc) at Western University.'
           />
-          <TextItem
-            emoji={breifcase}
-            title='Past Work Experience'
-            text='For the past summer I worked as an undergraduate researcher at Western University. During this time, I developed a React Native collection tool to help digitalize the collection of field sample information.'
+          <TextCard
+            icon={breifcase}
+            title='Experience'
+            content='For the past summer I worked as an undergraduate researcher at Western University. During this time, I developed a React Native collection tool to help digitalize the collection of field sample information.'
           />
-          <TextItem
-            emoji={hobby}
+          <TextCard
+            icon={hobby}
             title='Hobbies'
-            text='For the past 15 years of my life I have competed in provinical, national and international golf tournments. I also enjoy listening to music (red hot chili peppers) and snowboarding. '
+            content='For the past 15 years of my life I have competed in provinical, national and international golf tournments. I also enjoy listening to music (red hot chili peppers) and snowboarding. '
           />
-        </div>
-        <div className='centered-div'>
-          <img src={arrow} alt='down-arrow' />
         </div>
       </div>
     </>
   );
 };
-
-Hero.propTypes = {};
 
 export default Hero;
