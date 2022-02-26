@@ -7,7 +7,33 @@
   height: 85vh;
 }
 
-.about-flex img {
-  height: 50vh;
-  width: 50vh;
+.about-column {
+  display: flex;
+  flex-direction: column;
+}
+
+.about-row {
+  display: flex;
+  flex-direction: row;
+  flex: 1;
+  padding: 20rem;
+}
+
+.about-row .text-card_container {
+  width: 150px;
+  margin: 0rem 15rem;
+}
+
+.about-row text-card-header_container-img {
+  display: none;
+}
+
+.about-row img {
+  border-radius: 50%;
+  width: 25vw;
+  height: 25vw;
+}
+
+.timeline_container {
+  padding: 100rem 0rem;
 }
