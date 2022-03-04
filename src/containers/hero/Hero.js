@@ -46,17 +46,36 @@ const Hero = (props) => {
           <TextCard
             icon={education}
             title='Education'
-            content='A 3.9 GPA student taking Honors Business Administration (HBA) at Ivey Business School & planning to continue Software Enginering (BESc) at Western University.'
+            content={
+              <p>
+                A 3.9 GPA student taking Honors Business Administration (HBA) at
+                Ivey Business School & planning to continue Software Enginering
+                (BESc) at Western University.
+              </p>
+            }
           />
           <TextCard
             icon={breifcase}
             title='Experience'
-            content='For the past summer I worked as an undergraduate researcher at Western University. During this time, I developed a React Native collection tool to help digitalize the collection of field sample information.'
+            content={
+              <p>
+                For the past summer I worked as an undergraduate researcher at
+                Western University. During this time, I developed a React Native
+                collection tool to help digitalize the collection of field
+                sample information.
+              </p>
+            }
           />
           <TextCard
             icon={hobby}
             title='Hobbies'
-            content='For the past 15 years of my life I have competed in provinical, national and international golf tournments. I also enjoy listening to music (red hot chili peppers) and snowboarding. '
+            content={
+              <p>
+                For the past 15 years of my life I have competed in provinical,
+                national and international golf tournments. I also enjoy
+                listening to music (red hot chili peppers) and snowboarding.{' '}
+              </p>
+            }
           />
         </div>
       </div>

@@ -5,7 +5,8 @@
     "date" : "Jan 2021 - Feb 2022",
     "organization": "HBAA",
     "description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Pulvinar proin gravida hendrerit lectus a. Nunc sed augue lacus viverra vitae congue eu. Elit at imperdiet dui accumsan sit amet nulla facilisi morbi.",
-    "iconName" : "Hobby"
+    "iconName" : "Hobby",
+    "iconBg" : "rgb(33, 150, 243)"
   },
   {
     "id" : 2,
@@ -13,7 +14,8 @@
     "date" : "Jan 2021 - Feb 2022",
     "organization": "HBAA",
     "description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Pulvinar proin gravida hendrerit lectus a. Nunc sed augue lacus viverra vitae congue eu. Elit at imperdiet dui accumsan sit amet nulla facilisi morbi.",
-    "iconName" : "Hobby"
+    "iconName" : "Hobby",
+    "iconBg" : "rgb(33, 150, 243)"
   },
   {
     "id" : 3,
@@ -21,7 +23,8 @@
     "date" : "Jan 2021 - Feb 2022",
     "organization": "HBAA",
     "description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Pulvinar proin gravida hendrerit lectus a. Nunc sed augue lacus viverra vitae congue eu. Elit at imperdiet dui accumsan sit amet nulla facilisi morbi.",
-    "iconName" : "Hobby"
+    "iconName" : "Hobby",
+    "iconBg" : "rgb(33, 150, 243)"
   },
   {
     "id" : 4,
@@ -29,7 +32,8 @@
     "date" : "Jan 2021 - Feb 2022",
     "organization": "HBAA",
     "description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Pulvinar proin gravida hendrerit lectus a. Nunc sed augue lacus viverra vitae congue eu. Elit at imperdiet dui accumsan sit amet nulla facilisi morbi.",
-    "iconName" : "Hobby"
+    "iconName" : "Hobby",
+    "iconBg" : "rgb(33, 150, 243)"
   },
   {
     "id" : 5,
@@ -37,6 +41,7 @@
     "date" : "Jan 2021 - Feb 2022",
     "organization": "HBAA",
     "description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Pulvinar proin gravida hendrerit lectus a. Nunc sed augue lacus viverra vitae congue eu. Elit at imperdiet dui accumsan sit amet nulla facilisi morbi.",
-    "iconName" : "Hobby"
+    "iconName" : "Hobby",
+    "iconBg" : "rgb(33, 150, 243)"
   }
 ]

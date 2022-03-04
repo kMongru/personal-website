@@ -18,7 +18,7 @@ const Timeline = ({ data }) => {
             key={item.id}
             date={item.date}
             dateClassName='timeline-date'
-            iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
+            iconStyle={{ background: item.iconBg, color: '#fff' }}
             icon={<Icon />}
           >
             <h3 className='vertical-timeline-element-title'>{item.title}</h3>

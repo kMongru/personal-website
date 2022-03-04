@@ -13,9 +13,7 @@ const TextCard = ({ icon, title, content }) => {
         </div>
         <h3>{title}</h3>
       </div>
-      <div className='text-card-text_container'>
-        <p>{content}</p>
-      </div>
+      <div className='text-card-text_container'>{content}</div>
     </div>
   );
 };
@@ -23,7 +21,7 @@ const TextCard = ({ icon, title, content }) => {
 TextCard.propTypes = {
   icon: PropTypes.string,
   title: PropTypes.string,
-  content: PropTypes.string,
+  // content: PropTypes.string,
 };
 
 export default TextCard;

@@ -12,7 +12,7 @@ const AboutPage = () => {
   return (
     <Wrapper>
       <div className='about-row'>
-        <div className='about-column'>
+        <div className='about-column about-flex-left'>
           <h3>Welcome!</h3>
           <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
@@ -21,26 +21,38 @@ const AboutPage = () => {
             congue eu. Elit at imperdiet dui accumsan sit amet nulla facilisi
             morbi.
           </p>
-          <div className='about-row'>
+          <div className='about-row about-textcard'>
             <TextCard
               title='Languages'
-              content='Java
-            Javascript
-            Python
-            C#'
+              content={
+                <ul>
+                  <li>Java</li>
+                  <li>Javascript</li>
+                  <li>Python</li>
+                  <li>C#</li>
+                </ul>
+              }
             />
             <TextCard
               title='Tools & Frameworks'
-              content='React
-            React Native
-            Figma
-            GitHub'
+              content={
+                <ul>
+                  <li>React</li>
+                  <li>React Native</li>
+                  <li>GitHub</li>
+                  <li>Figma</li>
+                </ul>
+              }
             />
           </div>
         </div>
-        <img src={headshot} alt='headshot' />
+        <div className='about-flex-1'>
+          <img src={headshot} alt='headshot' />
+        </div>
       </div>
-      <h3>Timeline</h3>
+      <div className='about-row'>
+        <h3>Timeline</h3>
+      </div>
       <div className='timeline_container'>
         <Timeline data={data} />
       </div>
