@@ -49,7 +49,7 @@ const Hero = (props) => {
             content={
               <p>
                 A 3.9 GPA student taking Honors Business Administration (HBA) at
-                Ivey Business School & planning to continue Software Enginering
+                Ivey Business School & planning to continue Software Engineering
                 (BESc) at Western University.
               </p>
             }
@@ -59,10 +59,9 @@ const Hero = (props) => {
             title='Experience'
             content={
               <p>
-                For the past summer I worked as an undergraduate researcher at
-                Western University. During this time, I developed a React Native
-                collection tool to help digitalize the collection of field
-                sample information.
+                This past summer I led the front-end development of a
+                cross-platform mobile collection tool, which replaced a
+                paper-based system used by Western University researchers.
               </p>
             }
           />
@@ -71,9 +70,9 @@ const Hero = (props) => {
             title='Hobbies'
             content={
               <p>
-                For the past 15 years of my life I have competed in provinical,
-                national and international golf tournments. I also enjoy
-                listening to music (red hot chili peppers) and snowboarding.{' '}
+                For the past 15 years I have competed in provincial, national,
+                and international golf tournaments. I also love snowboarding,
+                podcasts, and the occasional Netflix binge.
               </p>
             }
           />

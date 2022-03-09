@@ -1,47 +1,91 @@
 [
   {
     "id" : 1,
-    "title" : "HBAA VP Social",
-    "date" : "Jan 2021 - Feb 2022",
-    "organization": "HBAA",
-    "description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Pulvinar proin gravida hendrerit lectus a. Nunc sed augue lacus viverra vitae congue eu. Elit at imperdiet dui accumsan sit amet nulla facilisi morbi.",
-    "iconName" : "Hobby",
-    "iconBg" : "rgb(33, 150, 243)"
+    "title" : "Full Stack Developer",
+    "date" : "Fall 2021 - Spring 2022",
+    "organization": "Ivey Fintech Club",
+    "description" : "Collaborated with a team of nine developers to create an event organization and student management application for the London Boys and Girls Club. I utilized React and Figma to design and build components and then GitHub to connect the frontend with Firebase and develop a full stack application.",
+    "iconName" : "MdOutlineCode",
+    "iconBg" : "rgb(33, 150, 243)",
+    "links" : []
   },
   {
     "id" : 2,
-    "title" : "HBAA VP Social",
-    "date" : "Jan 2021 - Feb 2022",
-    "organization": "HBAA",
-    "description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Pulvinar proin gravida hendrerit lectus a. Nunc sed augue lacus viverra vitae congue eu. Elit at imperdiet dui accumsan sit amet nulla facilisi morbi.",
-    "iconName" : "Hobby",
-    "iconBg" : "rgb(33, 150, 243)"
-  },
-  {
+    "title" : "Vice President Social ",
+    "date" : "Fall 2021 - Spring 2022",
+    "organization": "Ivey Section Executive",
+    "description" : "Organized weekly social events such as section dinners, golf, and bar nights for my 80-person cohort by connecting with local businesses to arrange reservations and build relationships for the program. The highlight trips were Niagara Falls and Blue Mountains, check out the pictures!",
+    "iconName" : "MdLocalBar",
+    "iconBg" : "rgb(33, 150, 243)",
+    "links" : []
+  },{
     "id" : 3,
-    "title" : "HBAA VP Social",
-    "date" : "Jan 2021 - Feb 2022",
-    "organization": "HBAA",
-    "description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Pulvinar proin gravida hendrerit lectus a. Nunc sed augue lacus viverra vitae congue eu. Elit at imperdiet dui accumsan sit amet nulla facilisi morbi.",
-    "iconName" : "Hobby",
-    "iconBg" : "rgb(33, 150, 243)"
+    "title" : "Co-ed Soccer Player",
+    "date" : "Fall 2021",
+    "organization": "Western Intramurals",
+    "description" : "Need some text here",
+    "iconName" : "MdSportsScore",
+    "iconBg" : "rgb(33, 150, 243)",
+    "links" : []
   },
   {
     "id" : 4,
-    "title" : "HBAA VP Social",
-    "date" : "Jan 2021 - Feb 2022",
-    "organization": "HBAA",
-    "description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Pulvinar proin gravida hendrerit lectus a. Nunc sed augue lacus viverra vitae congue eu. Elit at imperdiet dui accumsan sit amet nulla facilisi morbi.",
-    "iconName" : "Hobby",
-    "iconBg" : "rgb(33, 150, 243)"
+    "title" : "Debate Competitor",
+    "date" : "January 2021",
+    "organization": "Western Engineering Competition",
+    "description" : "Competed in a two-person team debate competition hosted by Western Engineering. In my first debate competition I advanced to the finals, placed second overall and received an invitation to the Provincial Debate Championships.",
+    "iconName" : "MdGavel",
+    "iconBg" : "rgb(33, 150, 243)",
+    "links" : []
   },
   {
     "id" : 5,
-    "title" : "HBAA VP Social",
-    "date" : "Jan 2021 - Feb 2022",
-    "organization": "HBAA",
-    "description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Pulvinar proin gravida hendrerit lectus a. Nunc sed augue lacus viverra vitae congue eu. Elit at imperdiet dui accumsan sit amet nulla facilisi morbi.",
-    "iconName" : "Hobby",
-    "iconBg" : "rgb(33, 150, 243)"
+    "title" : "Engineering Leader",
+    "date" : "Fall 2020 - Spring 2021",
+    "organization": "Western University Orientation Team",
+    "description" : "Mentored 23 first year engineering students throughout the year by endorsing university resources and providing social support, ensuring students were accustomed to university and positioned for success.",
+    "iconName" : "MdEngineering",
+    "iconBg" : "rgb(33, 150, 243)",
+    "links" : []
+  },
+  {
+    "id" : 6,
+    "title" : "Researcher",
+    "date" : "Fall 2020 - Spring 2021",
+    "organization": "Western Investment Club",
+    "description" : "Activity participated in weekly educational meeting lead by the Tech, Media and Telecom group which has solidified my interest in investing. Has a researcher I wrote a one-page stock analysis on Intel (NASDAQ: INTC) as a part of an exclusive Equity Monitoring team.",
+    "iconName" : "MdQueryStats",
+    "iconBg" : "rgb(33, 150, 243)",
+    "links" : []
+  },
+  {
+    "id" : 7,
+    "title" : "Oshawa Division Co-Led",
+    "date" : "Summer 2020",
+    "organization": "The Basket Project",
+    "description" : "Led an expansion division of a non-profit organization that created and distributed Covid-19 relief baskets to the homeless; resulted in 125 relief baskets being delivered to the Oshawa homeless community.",
+    "iconName" : "MdShoppingBasket",
+    "iconBg" : "rgb(33, 150, 243)",
+    "links" : ["https://news.westernu.ca/2020/11/engineering-students-expand-basket-project-for-homeless/", "https://www.toronto.com/news-story/10175511-durham-university-students-reach-out-to-help-homeless-with-basket-project/"]
+  },
+  {
+    "id" : 8,
+    "title" : "Innertube Water Polo Player",
+    "date" : "Spring 2020",
+    "organization": "Western Intramurals",
+    "description" : "Played two games of innertube water polo each Saturday night at the Western Recreational Centre. Unfournatly our season was cut short due to COVID-19, although my team is excited to play again when it is safe to do so.",
+    "iconName" : "MdSportsScore",
+    "iconBg" : "rgb(33, 150, 243)",
+    "links" : []
+  },
+  {
+    "id" : 9,
+    "title" : "Western Ambassador",
+    "date" : "Fall 2019 - Winter 2020",
+    "organization": "Western Engineering Toboggan Team",
+    "description" : "Attended weekly “mix night” sessions run by the team, where we would make the concrete for the skis of the toboggan. In our National Competition, we placed third overall at the competition, after winning first in Ski Design, first in Theme, third in Spirit, and third in Toboggan Design.",
+    "iconName" : "MdEngineering",
+    "iconBg" : "rgb(33, 150, 243)",
+    "links" : ["https://www.eng.uwo.ca/media/news/2020/WETT-places-3rd-GNCTR.html"]
   }
 ]
