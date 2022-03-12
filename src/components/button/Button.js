@@ -7,7 +7,7 @@ import './button.css';
 /*
 PROPS
 text -> the text inside the button
-status -> disabled or enabled
+status -> disabled or enabled 
 onClick -> the function called from the button
 */
 

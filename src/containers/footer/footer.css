@@ -8,6 +8,12 @@
   background-color: var(--footer-bg);
 }
 
+.footer-fixed {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
 .footer-row {
   display: flex;
   flex-direction: row;

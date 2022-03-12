@@ -13,7 +13,7 @@ const AboutPage = () => {
     <Wrapper>
       <div className='about-row'>
         <div className='about-column about-flex-left'>
-          <h3>Welcome!</h3>
+          <h2>Welcome!</h2>
           <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua. Pulvinar
@@ -51,7 +51,7 @@ const AboutPage = () => {
         </div>
       </div>
       <div className='about-row'>
-        <h3>Timeline</h3>
+        <h2>Timeline</h2>
       </div>
       <div className='timeline_container'>
         <Timeline data={data} />

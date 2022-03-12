@@ -3,11 +3,11 @@ import {
   VerticalTimeline,
   VerticalTimelineElement,
 } from 'react-vertical-timeline-component';
-import { ReactComponent as Icon } from '../../assets/Hobby.svg';
+
 import * as MaterialDesign from 'react-icons/md';
 import * as FontAwesome from 'react-icons/fa';
 
-import { IconContext } from 'react-icons';
+import Button from '../button/Button';
 
 //styling
 import 'react-vertical-timeline-component/style.min.css';
@@ -38,6 +38,10 @@ const Timeline = ({ data }) => {
               {item.organization}
             </h4>
             <p id='description'>{item.description}</p>
+            {item.buttons &&
+              item.buttons.map((button) => (
+                <Button link={button.link} text={button.name} />
+              ))}
           </VerticalTimelineElement>
         );
       })}

@@ -26,7 +26,7 @@ const Wrapper = (props) => {
     <div className={`wrapper_container ${props.full}`} data-theme={theme}>
       <Header switchTheme={switchTheme} theme={theme} />
       {props.children}
-      <Footer />
+      <Footer fixed={props.bottom} />
     </div>
   );
 };

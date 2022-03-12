@@ -7,7 +7,8 @@
     "description" : "Collaborated with a team of nine developers to create an event organization and student management application for the London Boys and Girls Club. I utilized React and Figma to design and build components and then GitHub to connect the frontend with Firebase and develop a full stack application.",
     "iconName" : "MdOutlineCode",
     "iconBg" : "rgb(33, 150, 243)",
-    "links" : []
+    "buttons" : [{"links" : "test",
+      "name" : "code"}]
   },
   {
     "id" : 2,

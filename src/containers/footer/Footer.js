@@ -15,9 +15,9 @@ const Footer = (props) => {
   const site = '<Site/>';
 
   return (
-    <div className='footer_container'>
+    <div className={`footer_container ${props.fixed}`}>
       <div className='footer-row footer-hidden'>
-        <AiOutlineCopyrightCircle size={30} color={'white'} />
+        <AiOutlineCopyrightCircle size={15} color={'white'} />
         <p className='footer-white footer-margins'>2022 Keegan Mongru</p>
       </div>
       <div className='footer-row'>

@@ -27,6 +27,7 @@ const Projects = (props) => {
       </div>
       <div className='projects-card_container'>
         <Card
+          key='1'
           bg={bg_yellow}
           theme={'#FDD888'}
           title='Information Collection Tool'
@@ -46,6 +47,7 @@ const Projects = (props) => {
           ]}
         />
         <Card
+          key='2'
           bg={bg_green}
           theme={'#8cdc94'}
           title='Path Finding Visualization'
@@ -63,6 +65,7 @@ const Projects = (props) => {
           ]}
         />
         <Card
+          key='3'
           bg={bg_red}
           theme={'#E98C79'}
           title='Trading Algorithm'

@@ -50,7 +50,7 @@ const ContactPage = (props) => {
   console.log(errors);
 
   return (
-    <Wrapper full='full'>
+    <Wrapper full='full' bottom='footer-fixed'>
       <div className='contact-flex'>
         <div className='contact-flex-text'>
           <div className='contact-flex-text-title'>

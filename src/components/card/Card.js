@@ -55,7 +55,7 @@ Card.propTypes = {
   description: PropTypes.string,
   code: PropTypes.string,
   demo: PropTypes.string,
-  logos: PropTypes.object,
+  logos: PropTypes.array,
   theme: PropTypes.string,
 };
 
