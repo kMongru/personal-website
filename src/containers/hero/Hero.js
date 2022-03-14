@@ -5,6 +5,7 @@ import './hero.css';
 
 //custom components
 import { Button, TextCard } from '../../components';
+import { Link } from 'react-router-dom';
 
 //images
 import hand from '../../assets/Waving Hand.svg';
@@ -34,7 +35,9 @@ const Hero = (props) => {
         </div>
       </div>
       <div className='button-container'>
-        <Button text='Contact Me' onClick={() => {}} />
+        <Link to='/contact'>
+          <Button text='Contact Me' onClick={() => {}} />
+        </Link>
         <Button text='PDF Resume' onClick={() => {}} link={resume} />
       </div>
       <div className='TLDR'>

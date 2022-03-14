@@ -50,10 +50,10 @@ const Projects = (props) => {
           key='2'
           bg={bg_green}
           theme={'#8cdc94'}
-          title='Path Finding Visualization'
+          title='Search Visualization'
           img={white_maze}
           description={
-            'A cross-platform mobile application to collect field sample data for the Grbic research team.'
+            '(WIP) A visualization of DFS and BFS on a classic Leetcode island counting problem.'
           }
           code={''}
           demo={''}
@@ -71,7 +71,7 @@ const Projects = (props) => {
           title='Trading Algorithm'
           img={white_trading}
           description={
-            'A cross-platform mobile application to collect field sample data for the Grbic research team.'
+            '(WIP) Machine learning example of arbitrage trading with different training sets.'
           }
           code={''}
           demo={''}
