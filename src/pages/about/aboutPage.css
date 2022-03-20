@@ -11,6 +11,10 @@
   flex: 1;
 }
 
+.about-flex-left p {
+  margin: 10rem 0rem;
+}
+
 .about-flex-1 {
   display: flex;
   flex: 1;
@@ -24,7 +28,7 @@
 }
 
 .about-column h3 {
-  margin: 15rem 0rem;
+  margin: 5rem 0rem;
 }
 
 .about-row {
@@ -32,12 +36,29 @@
   flex-direction: row;
   flex: 1;
   padding: 20rem;
+  padding-top: 70rem;
 }
 
 .about-row img {
   border-radius: 50%;
   width: 20vw;
   height: 20vw;
+}
+
+.about-banner {
+  padding: 25rem 2rem;
+}
+
+.about-banner h3 {
+  color: grey;
+}
+
+.about-banner-text-margins {
+  margin: 0rem 10rem;
+}
+
+.about-dark-bg {
+  background-color: #222322;
 }
 
 .about-textcard {

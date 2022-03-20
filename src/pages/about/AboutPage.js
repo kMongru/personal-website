@@ -1,9 +1,14 @@
 import React from 'react';
+import Marquee from 'react-fast-marquee';
 
 import Wrapper from '../Wrapper';
 import { Timeline, TextCard } from '../../components';
+
 import data from '../../data/timeline.json';
+import awards from '../../data/awards.json';
+
 import headshot from '../../assets/headshot.JPG';
+import bg_green from '../../assets/bg_green.svg';
 
 //styling
 import './aboutPage.css';
@@ -13,7 +18,7 @@ const AboutPage = () => {
     <Wrapper>
       <div className='about-row'>
         <div className='about-column about-flex-left'>
-          <h2>Welcome!</h2>
+          <h2>Here's More About Me!</h2>
           <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua. Pulvinar
@@ -50,10 +55,21 @@ const AboutPage = () => {
           <img src={headshot} alt='headshot' />
         </div>
       </div>
-      <div className='about-row'>
+      <div className='about-banner' style={{ backgroundImage: { bg_green } }}>
+        <Marquee gradient={false}>
+          {awards.map((item, index) => {
+            return (
+              <h3 className='about-banner-text-margins' key={item.id}>
+                {item.name}
+              </h3>
+            );
+          })}
+        </Marquee>
+      </div>
+      <div className='about-row about-dark-bg'>
         <h2>Timeline</h2>
       </div>
-      <div className='timeline_container'>
+      <div className='timeline_container about-dark-bg'>
         <Timeline data={data} />
       </div>
     </Wrapper>

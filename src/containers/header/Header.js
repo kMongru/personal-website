@@ -14,12 +14,17 @@ import 'react-toggle/style.css';
 const Menu = ({ isOpen }) => {
   return (
     <div className={'menu-' + isOpen}>
-      <h3>
+      {isOpen && (
+        <h3>
+          <Link to='/'>Home</Link>
+        </h3>
+      )}
+      {/* <h3>
         <Link to='/projects'>Projects</Link>
       </h3>
       <h3>
         <Link to='/about'>About Me</Link>
-      </h3>
+      </h3> */}
       <h3>
         <Link to='/contact'>Contact</Link>
       </h3>
