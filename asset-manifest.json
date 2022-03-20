@@ -1,7 +1,8 @@
 {
   "files": {
-    "main.css": "/static/css/main.c0acf940.css",
-    "main.js": "/static/js/main.907e0c1c.js",
+    "main.css": "/static/css/main.aadcef97.css",
+    "main.js": "/static/js/main.f8690b54.js",
+    "static/media/headshot.JPG": "/static/media/headshot.1653541d7f41047f534c.JPG",
     "static/media/wip_animation.gif": "/static/media/wip_animation.d6c52f3d055309f80328.gif",
     "static/media/Keegan Mongru Software Resume.pdf": "/static/media/Keegan Mongru Software Resume.affaf9a4e4bef2e53e58.pdf",
     "static/media/White_Trading.svg": "/static/media/White_Trading.e0f783f02d2bc6be0600f5bab5268594.svg",
@@ -17,13 +18,12 @@
     "static/media/Hobby.svg": "/static/media/Hobby.e5f6339240f3d74f14d44b178d2a44c1.svg",
     "static/media/Briefcase.svg": "/static/media/Briefcase.725ba4d4c5ebe4501edd7280a1c080bd.svg",
     "index.html": "/index.html",
-    "static/media/Down Arrow.svg": "/static/media/Down Arrow.12e65646e9fb4152a6f96b27b72ce022.svg",
     "static/media/Mobile Phone.svg": "/static/media/Mobile Phone.1427fccfc56ee4cdc3dd3ae592139f17.svg",
-    "main.c0acf940.css.map": "/static/css/main.c0acf940.css.map",
-    "main.907e0c1c.js.map": "/static/js/main.907e0c1c.js.map"
+    "main.aadcef97.css.map": "/static/css/main.aadcef97.css.map",
+    "main.f8690b54.js.map": "/static/js/main.f8690b54.js.map"
   },
   "entrypoints": [
-    "static/css/main.c0acf940.css",
-    "static/js/main.907e0c1c.js"
+    "static/css/main.aadcef97.css",
+    "static/js/main.f8690b54.js"
   ]
 }
