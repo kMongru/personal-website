@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.aadcef97.css",
-    "main.js": "/static/js/main.f8690b54.js",
+    "main.css": "/static/css/main.e52803e7.css",
+    "main.js": "/static/js/main.aabc581d.js",
     "static/media/headshot.JPG": "/static/media/headshot.1653541d7f41047f534c.JPG",
     "static/media/wip_animation.gif": "/static/media/wip_animation.d6c52f3d055309f80328.gif",
     "static/media/Keegan Mongru Software Resume.pdf": "/static/media/Keegan Mongru Software Resume.affaf9a4e4bef2e53e58.pdf",
@@ -19,11 +19,11 @@
     "static/media/Briefcase.svg": "/static/media/Briefcase.725ba4d4c5ebe4501edd7280a1c080bd.svg",
     "index.html": "/index.html",
     "static/media/Mobile Phone.svg": "/static/media/Mobile Phone.1427fccfc56ee4cdc3dd3ae592139f17.svg",
-    "main.aadcef97.css.map": "/static/css/main.aadcef97.css.map",
-    "main.f8690b54.js.map": "/static/js/main.f8690b54.js.map"
+    "main.e52803e7.css.map": "/static/css/main.e52803e7.css.map",
+    "main.aabc581d.js.map": "/static/js/main.aabc581d.js.map"
   },
   "entrypoints": [
-    "static/css/main.aadcef97.css",
-    "static/js/main.f8690b54.js"
+    "static/css/main.e52803e7.css",
+    "static/js/main.aabc581d.js"
   ]
 }
