@@ -27,6 +27,11 @@
 
   /* shadow utilities */
   --ui-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+
+  /* IOS & Firefox support  */
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
 }
 
 [data-theme='dark'] {

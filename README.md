@@ -1,6 +1,6 @@
-# Getting Started with Create React App (Test Push)
+# Site is LIVE
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+https://keeganmongru.com
 
 # New Shortcut!
 
@@ -19,20 +19,8 @@ crl + / => creates a comment
 - form validation -> https://react-hook-form.com/
 - email submission -> https://www.emailjs.com/
 
-- shutter animation
-- framer motion
+# Next Steps!
+
+- implement framer motion
+- implement TypeScript
 - intersection observer
-
-# Notes
-
-css naming convention -> BEM -> Block Element Modifier
-
-# Currently working on
-
-# Projects
-
-Trading Algo
-
-- allow user to pick a stock with a history of 1 year (pull from yahoo?)
-- pull the stock and show my algo's buy/sells over the year
-- show the P&L of the algo?

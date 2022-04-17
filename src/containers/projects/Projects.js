@@ -53,15 +53,14 @@ const Projects = (props) => {
           title='Search Visualization'
           img={white_maze}
           description={
-            '(WIP) A visualization of DFS and BFS on a classic Leetcode island counting problem.'
+            'A visualization of DFS and BFS on a classic LeetCode island searching problem.'
           }
-          code={''}
-          demo={''}
+          code={'https://github.com/kMongru/react-search-project'}
+          demo={'https://kmongru.github.io/react-search-project/'}
           logos={[
-            <DiJavascript1 size={40} />,
-            <DiReact size={40} />,
-            <FaFigma size={30} />,
-            <SiRedux size={30} />,
+            <DiJavascript1 size={30} />,
+            <DiReact size={30} />,
+            <FaFigma size={20} />,
           ]}
         />
         <Card

@@ -40,9 +40,21 @@ const Footer = (props) => {
         </a>
       </div>
       <div className='footer-row footer-hidden'>
-        <a className='footer-margins footer-white'>{site}</a>
+        <a
+          href='https://github.com/kMongru/personal-website'
+          target='_blank'
+          rel='noreferrer'
+          className='footer-margins footer-white'
+        >
+          {site}
+        </a>
         <p className='footer-white'> & </p>
-        <a className='footer-margins'>
+        <a
+          href='https://www.figma.com/file/x2Gs69eXqFUMXfYEY57Rya/Web-V2?node-id=0%3A1'
+          target='_blank'
+          rel='noreferrer'
+          className='footer-margins'
+        >
           <TiPencil size={30} color={'white'} />
         </a>
       </div>

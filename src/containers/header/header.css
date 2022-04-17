@@ -89,6 +89,10 @@
   margin-left: 0.7em;
 }
 
+.menu-true a {
+  color: var(--card-bg)
+}
+
 /* Animations */
 .menu-true h3:hover {
   color: var(--primary-green);
