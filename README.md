@@ -1,26 +1,31 @@
-# Site is LIVE
+## Personal Website
 
-https://keeganmongru.com
+The site is live at https://keeganmongru.com
 
-# New Shortcut!
+### Project Description
 
-shift + crl + down arrow => copies a line down
-rafcp => ES7 snippet of react arrow function with proptypes
-crl + / => creates a comment
+This project is a showcase of personal projects that I have created along with a contact page to connect with me directly. I used **JavaScript**, **React** and **Figma** to design and implement the site. I learned about CSS animations and API calls with axios for automated email submissions with a react-hook-form & email.js APIs.
 
-# Resources
+### Next Steps
 
-- for gradient background -> https://angrytools.com/gradient
-- for cool background -> https://bgjar.com/
-- for easily animation -> https://animista.net/play/basic
-- light/dark -> https://css-tricks.com/easy-dark-mode-and-multiple-color-themes-in-react/
-- arrow -> https://codepen.io/JakubHonisek/pen/qjpeeO
-- grid -> https://uxdesign.cc/creating-horizontal-scrolling-containers-the-right-way-css-grid-c256f64fc585
-- form validation -> https://react-hook-form.com/
-- email submission -> https://www.emailjs.com/
+- Implement Framer
+- Implement TypeScript
 
-# Next Steps!
+### Instructions
+To run this project, clone it locally using git:
 
-- implement framer motion
-- implement TypeScript
-- intersection observer
+```
+$ git clone https://github.com/YOUR-USERNME/personal-website.git
+```
+
+### Resources I Used
+
+- Backgrounds -> **[BgJar](https://bgjar.com/)**
+- Animation -> **[Animista](https://animista.net/play/basic)**
+- Light/Dark Theme -> **[CSS Tricks](https://css-tricks.com/easy-dark-mode-and-multiple-color-themes-in-react/)**
+- Grids -> **[UX Design](https://uxdesign.cc/creating-horizontal-scrolling-containers-the-right-way-css-grid-c256f64fc585)**
+- Form Validation -> **[React Hook Form](https://react-hook-form.com/)**
+- Email Submission -> **[Email.js](https://www.emailjs.com/)**
+
+### License
+[MIT](https://choosealicense.com/licenses/mit/)
