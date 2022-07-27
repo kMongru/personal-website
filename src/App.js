@@ -7,6 +7,7 @@ import './styles/app.css';
 import { Hero, Projects } from './containers';
 import Wrapper from './pages/Wrapper';
 
+//main page layout
 function App() {
   // landing page jsx
   return (
