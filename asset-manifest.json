@@ -1,29 +1,29 @@
 {
   "files": {
     "main.css": "/static/css/main.e52803e7.css",
-    "main.js": "/static/js/main.aabc581d.js",
+    "main.js": "/static/js/main.482b9139.js",
     "static/media/headshot.JPG": "/static/media/headshot.1653541d7f41047f534c.JPG",
     "static/media/wip_animation.gif": "/static/media/wip_animation.d6c52f3d055309f80328.gif",
-    "static/media/Keegan Mongru Software Resume.pdf": "/static/media/Keegan Mongru Software Resume.affaf9a4e4bef2e53e58.pdf",
-    "static/media/White_Trading.svg": "/static/media/White_Trading.e0f783f02d2bc6be0600f5bab5268594.svg",
-    "static/media/White_Maze.svg": "/static/media/White_Maze.5729e65e8f54564bd43e4de0c8eeee5f.svg",
-    "static/media/Waving Hand.svg": "/static/media/Waving Hand.3926e43703c4af05c09ff78ba67ff872.svg",
-    "static/media/Stopwatch.svg": "/static/media/Stopwatch.89e1751ba0bb0e691ce9828a850296ba.svg",
-    "static/media/Light Bulb.svg": "/static/media/Light Bulb.a985e4885699465f80ed75bfb1697d27.svg",
-    "static/media/bg_yellow.svg": "/static/media/bg_yellow.de40960a2c3d1da7f72572ce4c904117.svg",
-    "static/media/Graduation Cap.svg": "/static/media/Graduation Cap.c97ebd043fce4fc893406b19738a5654.svg",
-    "static/media/bg_red.svg": "/static/media/bg_red.b00c1dc1485ad9fcba03678ee85eea38.svg",
-    "static/media/bg_green.svg": "/static/media/bg_green.fd5efa260619b703ff657f2db488296d.svg",
-    "static/media/Envelope.svg": "/static/media/Envelope.71d41543d6cf5c65121b5417dfdf951a.svg",
-    "static/media/Hobby.svg": "/static/media/Hobby.e5f6339240f3d74f14d44b178d2a44c1.svg",
-    "static/media/Briefcase.svg": "/static/media/Briefcase.725ba4d4c5ebe4501edd7280a1c080bd.svg",
+    "static/media/Keegan Mongru Software Resume.pdf": "/static/media/Keegan Mongru Software Resume.5ab2c42f1de58e110c66.pdf",
+    "static/media/White_Trading.svg": "/static/media/White_Trading.89605ba7406a9f6ca7f199b185c7bdb3.svg",
+    "static/media/White_Maze.svg": "/static/media/White_Maze.ea14292be72857f2e9b6c0d276fe0ea0.svg",
+    "static/media/Waving Hand.svg": "/static/media/Waving Hand.d7a1800f053e95e5d8d7dfdff9b97482.svg",
+    "static/media/Stopwatch.svg": "/static/media/Stopwatch.824d515a3d93a5672f0a92f6563cc1ec.svg",
+    "static/media/Light Bulb.svg": "/static/media/Light Bulb.3b6237238722c1445ee2a8050efbb849.svg",
+    "static/media/bg_yellow.svg": "/static/media/bg_yellow.c7affd3711fd11a4c2c24318c1025059.svg",
+    "static/media/Graduation Cap.svg": "/static/media/Graduation Cap.3f28b170ac5429ab4dcb2ac3627e293d.svg",
+    "static/media/bg_red.svg": "/static/media/bg_red.51d8c00316b24442ed0c5f2c9d536105.svg",
+    "static/media/bg_green.svg": "/static/media/bg_green.09ffa366be8c26534175905f144f2c36.svg",
+    "static/media/Envelope.svg": "/static/media/Envelope.c684daebe946e2502ee18ae1670f7e1c.svg",
+    "static/media/Hobby.svg": "/static/media/Hobby.9107135ba3b7a5249f17bfcf8b122ae5.svg",
+    "static/media/Briefcase.svg": "/static/media/Briefcase.0ce0ce2f29edd858725486bd9491884e.svg",
     "index.html": "/index.html",
-    "static/media/Mobile Phone.svg": "/static/media/Mobile Phone.1427fccfc56ee4cdc3dd3ae592139f17.svg",
+    "static/media/Mobile Phone.svg": "/static/media/Mobile Phone.2064e9ec0edf316bca0cbd205095e464.svg",
     "main.e52803e7.css.map": "/static/css/main.e52803e7.css.map",
-    "main.aabc581d.js.map": "/static/js/main.aabc581d.js.map"
+    "main.482b9139.js.map": "/static/js/main.482b9139.js.map"
   },
   "entrypoints": [
     "static/css/main.e52803e7.css",
-    "static/js/main.aabc581d.js"
+    "static/js/main.482b9139.js"
   ]
 }
